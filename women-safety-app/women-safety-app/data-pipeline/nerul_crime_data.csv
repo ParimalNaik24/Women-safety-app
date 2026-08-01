@@ -1,0 +1,1201 @@
+incident_id,latitude,longitude,area_name,crime_type,severity,time_of_day,date
+INC00001,19.030714,73.032475,"Juhu Nagar, Nerul",Chain Snatching,3,Night (21-6),2024-12-14
+INC00002,19.009744,73.022658,Nerul Sector 50 (Seawoods),Assault,4,Morning (6-12),2024-04-09
+INC00003,19.03778,73.01083,Nerul West,Chain Snatching,4,Evening (17-21),2025-01-22
+INC00004,19.040916,73.013635,Nerul Sector 20,Domestic Violence (reported outdoors),3,Evening (17-21),2025-12-22
+INC00005,19.036867,73.008823,Nerul Sector 20,Theft,1,Night (21-6),2024-04-13
+INC00006,19.033224,73.029085,Nerul East,Assault,4,Evening (17-21),2024-08-02
+INC00007,19.014115,73.020468,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,3,Evening (17-21),2024-09-07
+INC00008,19.027698,73.01916,Nerul Sector 23,Kidnapping Attempt,5,Night (21-6),2024-02-27
+INC00009,19.020574,73.02544,Nerul Sector 40,Robbery,4,Morning (6-12),2025-08-03
+INC00010,19.034201,73.016494,Nerul Lake Garden,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-09-09
+INC00011,19.030312,73.018976,Nerul Sector 3,Robbery,5,Evening (17-21),2024-05-21
+INC00012,19.036948,73.025046,Nerul Sector 8,Eve Teasing / Harassment,3,Evening (17-21),2025-11-27
+INC00013,19.045771,73.026078,DY Patil Stadium Area,Domestic Violence (reported outdoors),4,Evening (17-21),2025-07-20
+INC00014,19.035342,73.016616,Nerul Railway Station Area,Kidnapping Attempt,5,Night (21-6),2024-12-14
+INC00015,19.043848,73.011265,Nerul Sector 21,Chain Snatching,3,Night (21-6),2024-07-01
+INC00016,19.040301,73.025964,Nerul Sector 8,Theft,3,Afternoon (12-17),2024-06-14
+INC00017,19.033628,73.020379,Nerul Sector 3,Chain Snatching,3,Evening (17-21),2024-04-24
+INC00018,19.03803,73.012653,Nerul West,Theft,2,Morning (6-12),2025-08-03
+INC00019,19.037185,73.010888,Nerul Sector 20,Eve Teasing / Harassment,2,Morning (6-12),2025-05-01
+INC00020,19.027321,73.017221,Nerul Sector 3,Domestic Violence (reported outdoors),4,Night (21-6),2025-07-06
+INC00021,19.031704,73.007192,Nerul Sector 28,Assault,5,Night (21-6),2025-04-07
+INC00022,19.043483,73.010512,Nerul Sector 21,Chain Snatching,3,Evening (17-21),2024-01-08
+INC00023,19.042163,73.007471,Nerul Sector 20,Eve Teasing / Harassment,1,Night (21-6),2024-03-13
+INC00024,19.034904,73.024352,Nerul Sector 8,Molestation,5,Night (21-6),2025-08-07
+INC00025,19.031944,73.021784,Nerul Balaji Mandir Area,Robbery,4,Morning (6-12),2025-11-05
+INC00026,19.043834,73.026289,DY Patil Stadium Area,Chain Snatching,2,Morning (6-12),2024-12-13
+INC00027,19.043489,73.011522,Nerul Sector 21,Suspicious Activity / Loitering,1,Evening (17-21),2024-10-12
+INC00028,19.027998,73.033386,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Morning (6-12),2025-07-07
+INC00029,19.037652,73.023111,Nerul Railway Station Area,Molestation,4,Evening (17-21),2025-05-07
+INC00030,19.032917,73.01122,Nerul Sector 28,Stalking,4,Morning (6-12),2025-02-03
+INC00031,19.015912,73.021281,Nerul Sector 50 (Seawoods),Theft,4,Night (21-6),2025-07-23
+INC00032,19.031238,73.020374,Nerul Balaji Mandir Area,Chain Snatching,2,Night (21-6),2024-02-28
+INC00033,19.040473,73.015723,Nerul Sector 19A,Kidnapping Attempt,5,Morning (6-12),2025-06-04
+INC00034,19.043311,73.007548,Nerul Sector 20,Eve Teasing / Harassment,2,Evening (17-21),2025-08-06
+INC00035,19.018631,73.019318,Nerul Sector 40,Eve Teasing / Harassment,3,Night (21-6),2025-08-01
+INC00036,19.035531,73.021086,Nerul Sector 8,Assault,5,Afternoon (12-17),2024-05-14
+INC00037,19.011158,73.020932,Seawoods Grand Central,Eve Teasing / Harassment,1,Evening (17-21),2025-07-30
+INC00038,19.042086,73.011705,Nerul Sector 21,Theft,2,Night (21-6),2024-03-11
+INC00039,19.016956,73.020262,Nerul Sector 40,Kidnapping Attempt,5,Evening (17-21),2025-10-31
+INC00040,19.033063,73.025537,Nerul Sector 8,Theft,2,Night (21-6),2024-05-17
+INC00041,19.009423,73.015856,Nerul Sector 50 (Seawoods),Kidnapping Attempt,5,Afternoon (12-17),2025-09-11
+INC00042,19.031741,73.005629,Nerul Sector 28,Theft,3,Afternoon (12-17),2024-02-22
+INC00043,19.041574,73.013635,Nerul Sector 20,Chain Snatching,2,Evening (17-21),2024-05-13
+INC00044,19.009793,73.018535,Nerul Sector 50 (Seawoods),Robbery,4,Morning (6-12),2025-12-08
+INC00045,19.033365,73.027177,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2024-02-12
+INC00046,19.010417,73.020965,Seawoods Grand Central,Chain Snatching,3,Afternoon (12-17),2024-09-12
+INC00047,19.044329,73.014479,Nerul Sector 21,Robbery,4,Night (21-6),2024-08-30
+INC00048,19.03181,73.023486,Nerul Sector 23,Robbery,3,Afternoon (12-17),2024-12-06
+INC00049,19.047418,73.029913,DY Patil Stadium Area,Molestation,4,Afternoon (12-17),2025-12-19
+INC00050,19.04456,73.01031,Nerul Sector 21,Suspicious Activity / Loitering,1,Afternoon (12-17),2025-04-16
+INC00051,19.033442,73.012363,Nerul West,Molestation,4,Morning (6-12),2024-07-16
+INC00052,19.033626,73.030915,Nerul East,Theft,2,Evening (17-21),2025-02-13
+INC00053,19.028649,73.013221,Nerul Sector 3,Theft,2,Evening (17-21),2024-09-28
+INC00054,19.036667,73.015177,Nerul Sector 19A,Assault,5,Evening (17-21),2025-06-07
+INC00055,19.044582,73.014613,Nerul Sector 21,Theft,1,Night (21-6),2024-01-02
+INC00056,19.040405,73.023308,Nerul Sector 8,Molestation,5,Evening (17-21),2025-11-11
+INC00057,19.037485,73.017807,Nerul Lake Garden,Eve Teasing / Harassment,2,Evening (17-21),2025-11-13
+INC00058,19.043609,73.028578,DY Patil Stadium Area,Kidnapping Attempt,5,Afternoon (12-17),2025-11-11
+INC00059,19.036419,73.031222,Nerul East,Domestic Violence (reported outdoors),3,Evening (17-21),2024-01-01
+INC00060,19.009795,73.016939,Seawoods Grand Central,Domestic Violence (reported outdoors),3,Evening (17-21),2025-03-28
+INC00061,19.030089,73.01035,Nerul Sector 28,Stalking,2,Afternoon (12-17),2025-11-10
+INC00062,19.033247,73.020116,Nerul Lake Garden,Molestation,4,Afternoon (12-17),2024-07-22
+INC00063,19.029195,73.022459,Nerul Sector 22,Suspicious Activity / Loitering,1,Evening (17-21),2025-10-06
+INC00064,19.031747,73.007072,Nerul Sector 28,Robbery,4,Morning (6-12),2025-12-05
+INC00065,19.037041,73.022584,Nerul Railway Station Area,Eve Teasing / Harassment,3,Afternoon (12-17),2025-12-13
+INC00066,19.036716,73.023459,Nerul Sector 8,Eve Teasing / Harassment,4,Morning (6-12),2025-04-20
+INC00067,19.040903,73.023764,Nerul Sector 8,Suspicious Activity / Loitering,3,Night (21-6),2025-07-15
+INC00068,19.033178,73.031949,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,2,Afternoon (12-17),2024-09-10
+INC00069,19.014627,73.01917,Nerul Sector 50 (Seawoods),Molestation,5,Evening (17-21),2025-12-31
+INC00070,19.009376,73.016187,Seawoods Grand Central,Kidnapping Attempt,4,Morning (6-12),2024-08-24
+INC00071,19.036552,73.029651,Nerul East,Eve Teasing / Harassment,3,Evening (17-21),2025-07-09
+INC00072,19.029326,73.027655,"Juhu Nagar, Nerul",Robbery,5,Night (21-6),2025-08-21
+INC00073,19.036754,73.021825,Nerul Railway Station Area,Robbery,5,Morning (6-12),2024-12-26
+INC00074,19.013528,73.020328,Seawoods Grand Central,Robbery,4,Evening (17-21),2024-10-06
+INC00075,19.044885,73.026111,DY Patil Stadium Area,Robbery,4,Night (21-6),2024-05-10
+INC00076,19.026216,73.016152,Nerul Sector 3,Domestic Violence (reported outdoors),2,Morning (6-12),2025-03-14
+INC00077,19.035935,73.021954,Nerul Sector 22,Theft,3,Evening (17-21),2025-04-10
+INC00078,19.0352,73.019537,Nerul Lake Garden,Theft,3,Afternoon (12-17),2024-03-24
+INC00079,19.030155,73.022315,Nerul Balaji Mandir Area,Assault,4,Night (21-6),2025-10-29
+INC00080,19.041834,73.019297,Nerul Sector 19A,Molestation,3,Evening (17-21),2024-09-01
+INC00081,19.032788,73.021415,Nerul Sector 22,Molestation,5,Night (21-6),2025-01-12
+INC00082,19.028847,73.02471,Nerul Sector 23,Eve Teasing / Harassment,2,Night (21-6),2024-04-20
+INC00083,19.037331,73.020306,Nerul Railway Station Area,Robbery,5,Night (21-6),2024-07-22
+INC00084,19.041237,73.013645,Nerul Sector 20,Molestation,3,Night (21-6),2024-11-04
+INC00085,19.04787,73.014527,Nerul Sector 21,Chain Snatching,3,Evening (17-21),2025-11-08
+INC00086,19.031552,73.01118,Nerul West,Chain Snatching,4,Night (21-6),2024-04-18
+INC00087,19.048686,73.028085,DY Patil Stadium Area,Suspicious Activity / Loitering,1,Evening (17-21),2025-06-18
+INC00088,19.013427,73.022357,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,3,Evening (17-21),2025-08-29
+INC00089,19.011078,73.016964,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,3,Night (21-6),2024-09-06
+INC00090,19.030559,73.031346,"Juhu Nagar, Nerul",Assault,3,Evening (17-21),2024-11-28
+INC00091,19.0279,73.019839,Nerul Sector 23,Theft,2,Afternoon (12-17),2025-09-02
+INC00092,19.012946,73.019133,Nerul Sector 50 (Seawoods),Molestation,4,Afternoon (12-17),2025-02-20
+INC00093,19.034441,73.019923,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,2,Evening (17-21),2024-01-18
+INC00094,19.038854,73.010235,Nerul Sector 20,Molestation,4,Night (21-6),2025-01-12
+INC00095,19.034428,73.02075,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Evening (17-21),2025-04-09
+INC00096,19.010953,73.016844,Nerul Sector 50 (Seawoods),Molestation,5,Morning (6-12),2025-07-02
+INC00097,19.025532,73.022909,Nerul Sector 23,Theft,2,Night (21-6),2024-07-17
+INC00098,19.00932,73.014936,Seawoods Grand Central,Chain Snatching,3,Afternoon (12-17),2024-02-25
+INC00099,19.028337,73.020553,Nerul Sector 3,Suspicious Activity / Loitering,1,Night (21-6),2025-08-10
+INC00100,19.011255,73.017024,Seawoods Grand Central,Stalking,2,Afternoon (12-17),2025-05-04
+INC00101,19.048077,73.013206,Nerul Sector 21,Eve Teasing / Harassment,1,Afternoon (12-17),2025-07-30
+INC00102,19.008181,73.015486,Seawoods Grand Central,Kidnapping Attempt,5,Evening (17-21),2025-09-25
+INC00103,19.020206,73.022043,Nerul Sector 40,Suspicious Activity / Loitering,1,Night (21-6),2025-03-15
+INC00104,19.012049,73.013982,Seawoods Grand Central,Eve Teasing / Harassment,2,Evening (17-21),2024-09-27
+INC00105,19.037756,73.008391,Nerul Sector 20,Eve Teasing / Harassment,2,Morning (6-12),2025-04-06
+INC00106,19.03233,73.019852,Nerul Balaji Mandir Area,Theft,3,Morning (6-12),2024-08-27
+INC00107,19.014803,73.02,Nerul Sector 50 (Seawoods),Molestation,5,Morning (6-12),2024-08-18
+INC00108,19.036267,73.027113,Nerul Sector 22,Eve Teasing / Harassment,1,Afternoon (12-17),2024-11-10
+INC00109,19.011013,73.01725,Seawoods Grand Central,Theft,3,Night (21-6),2025-05-27
+INC00110,19.02995,73.013644,Nerul Sector 3,Chain Snatching,4,Night (21-6),2025-09-10
+INC00111,19.008707,73.016831,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),3,Night (21-6),2025-11-19
+INC00112,19.01311,73.021105,Nerul Sector 50 (Seawoods),Stalking,5,Evening (17-21),2025-03-28
+INC00113,19.009952,73.019683,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,1,Evening (17-21),2025-02-22
+INC00114,19.035068,73.013337,Nerul Lake Garden,Stalking,3,Evening (17-21),2025-05-22
+INC00115,19.012801,73.016704,Seawoods Grand Central,Kidnapping Attempt,4,Evening (17-21),2024-11-18
+INC00116,19.011086,73.022761,Nerul Sector 50 (Seawoods),Robbery,4,Night (21-6),2025-07-09
+INC00117,19.029306,73.027501,"Juhu Nagar, Nerul",Assault,5,Evening (17-21),2024-02-22
+INC00118,19.028136,73.005048,Nerul Sector 28,Theft,3,Night (21-6),2025-05-11
+INC00119,19.041731,73.01504,Nerul Sector 21,Molestation,4,Evening (17-21),2024-01-15
+INC00120,19.029264,73.014798,Nerul Sector 3,Eve Teasing / Harassment,3,Night (21-6),2025-10-25
+INC00121,19.032987,73.026233,Nerul Sector 22,Kidnapping Attempt,5,Evening (17-21),2025-05-09
+INC00122,19.03195,73.02241,Nerul Balaji Mandir Area,Robbery,4,Night (21-6),2025-06-04
+INC00123,19.035912,73.02271,Nerul Sector 22,Robbery,4,Night (21-6),2025-06-03
+INC00124,19.015064,73.017263,Nerul Sector 50 (Seawoods),Theft,4,Night (21-6),2025-04-02
+INC00125,19.029875,73.01566,Nerul Sector 3,Kidnapping Attempt,5,Evening (17-21),2024-11-25
+INC00126,19.033846,73.00591,Nerul Sector 28,Robbery,4,Night (21-6),2025-02-24
+INC00127,19.038345,73.015484,Nerul Sector 19A,Robbery,5,Night (21-6),2025-10-29
+INC00128,19.032963,73.020796,Nerul Sector 22,Kidnapping Attempt,5,Night (21-6),2025-03-26
+INC00129,19.045708,73.013655,Nerul Sector 21,Stalking,4,Night (21-6),2024-06-07
+INC00130,19.040256,73.014754,Nerul Sector 20,Assault,5,Evening (17-21),2024-12-02
+INC00131,19.02904,73.015533,Nerul Sector 3,Suspicious Activity / Loitering,1,Evening (17-21),2024-08-28
+INC00132,19.015479,73.019474,Seawoods Grand Central,Robbery,3,Night (21-6),2025-12-21
+INC00133,19.045049,73.015552,Nerul Sector 21,Chain Snatching,2,Evening (17-21),2024-02-27
+INC00134,19.010368,73.016945,Seawoods Grand Central,Molestation,5,Evening (17-21),2024-07-03
+INC00135,19.025401,73.021876,Nerul Sector 23,Robbery,4,Evening (17-21),2025-08-20
+INC00136,19.030858,73.025603,Nerul Sector 22,Suspicious Activity / Loitering,1,Night (21-6),2025-04-21
+INC00137,19.012921,73.014764,Seawoods Grand Central,Suspicious Activity / Loitering,1,Night (21-6),2024-11-02
+INC00138,19.046523,73.026655,DY Patil Stadium Area,Theft,2,Night (21-6),2025-05-09
+INC00139,19.043398,73.014575,Nerul Sector 21,Domestic Violence (reported outdoors),3,Night (21-6),2024-10-29
+INC00140,19.037724,73.020966,Nerul Railway Station Area,Theft,1,Evening (17-21),2025-12-03
+INC00141,19.043085,73.017661,Nerul Sector 19A,Theft,2,Evening (17-21),2024-12-26
+INC00142,19.019093,73.023967,Nerul Sector 40,Stalking,2,Night (21-6),2025-10-23
+INC00143,19.038271,73.015227,Nerul Sector 19A,Domestic Violence (reported outdoors),3,Night (21-6),2024-04-02
+INC00144,19.010114,73.016824,Seawoods Grand Central,Molestation,4,Night (21-6),2025-01-09
+INC00145,19.037014,73.02118,Nerul Sector 8,Stalking,4,Night (21-6),2025-05-08
+INC00146,19.013472,73.01621,Seawoods Grand Central,Eve Teasing / Harassment,3,Night (21-6),2024-05-24
+INC00147,19.020881,73.024794,Nerul Sector 40,Robbery,4,Morning (6-12),2025-02-08
+INC00148,19.032016,73.016689,Nerul Railway Station Area,Assault,4,Evening (17-21),2025-10-15
+INC00149,19.031867,73.007871,Nerul West,Chain Snatching,3,Night (21-6),2024-08-14
+INC00150,19.041583,73.010714,Nerul Sector 20,Theft,3,Morning (6-12),2024-02-16
+INC00151,19.038235,73.015641,Nerul Sector 19A,Eve Teasing / Harassment,2,Night (21-6),2024-05-18
+INC00152,19.034629,73.029364,Nerul East,Kidnapping Attempt,5,Evening (17-21),2024-06-07
+INC00153,19.046239,73.02967,DY Patil Stadium Area,Domestic Violence (reported outdoors),4,Night (21-6),2024-10-13
+INC00154,19.041322,73.013438,Nerul Sector 19A,Suspicious Activity / Loitering,1,Night (21-6),2024-04-11
+INC00155,19.035356,73.013823,Nerul West,Assault,3,Evening (17-21),2024-07-13
+INC00156,19.049092,73.016594,Nerul Sector 21,Eve Teasing / Harassment,2,Evening (17-21),2025-09-03
+INC00157,19.030305,73.018368,Nerul Railway Station Area,Stalking,3,Morning (6-12),2025-07-21
+INC00158,19.030691,73.010504,Nerul Sector 28,Molestation,4,Night (21-6),2025-09-02
+INC00159,19.032118,73.023572,Nerul Railway Station Area,Stalking,3,Night (21-6),2024-04-22
+INC00160,19.030954,73.018566,Nerul Railway Station Area,Molestation,4,Morning (6-12),2024-09-28
+INC00161,19.036814,73.015068,Nerul Sector 19A,Eve Teasing / Harassment,1,Evening (17-21),2025-01-05
+INC00162,19.037749,73.022616,Nerul Sector 8,Molestation,4,Night (21-6),2025-11-05
+INC00163,19.035413,73.024147,Nerul Sector 8,Chain Snatching,3,Night (21-6),2025-02-15
+INC00164,19.046489,73.026922,DY Patil Stadium Area,Suspicious Activity / Loitering,1,Night (21-6),2024-11-25
+INC00165,19.029525,73.0227,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2025-09-03
+INC00166,19.035359,73.023044,Nerul Sector 8,Robbery,4,Night (21-6),2024-04-27
+INC00167,19.031767,73.01472,Nerul Sector 3,Suspicious Activity / Loitering,1,Evening (17-21),2025-04-09
+INC00168,19.034328,73.024761,Nerul East,Robbery,4,Night (21-6),2025-01-18
+INC00169,19.034495,73.024294,Nerul Sector 22,Eve Teasing / Harassment,1,Morning (6-12),2024-04-08
+INC00170,19.037494,73.010451,Nerul West,Domestic Violence (reported outdoors),3,Night (21-6),2025-02-24
+INC00171,19.037989,73.013529,Nerul West,Robbery,3,Night (21-6),2025-09-06
+INC00172,19.010313,73.018123,Seawoods Grand Central,Molestation,4,Night (21-6),2024-08-17
+INC00173,19.044301,73.01445,Nerul Sector 21,Eve Teasing / Harassment,2,Evening (17-21),2025-03-15
+INC00174,19.033796,73.019547,Nerul Sector 3,Domestic Violence (reported outdoors),2,Evening (17-21),2025-11-04
+INC00175,19.008732,73.017186,Nerul Sector 50 (Seawoods),Theft,3,Evening (17-21),2024-07-04
+INC00176,19.033531,73.023706,Nerul Sector 22,Stalking,2,Morning (6-12),2025-06-27
+INC00177,19.02901,73.007629,Nerul Sector 28,Stalking,3,Evening (17-21),2024-11-28
+INC00178,19.043567,73.008245,Nerul Sector 20,Domestic Violence (reported outdoors),2,Night (21-6),2024-10-05
+INC00179,19.031296,73.029885,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,2,Afternoon (12-17),2025-06-08
+INC00180,19.044261,73.010887,Nerul Sector 21,Domestic Violence (reported outdoors),4,Evening (17-21),2024-11-11
+INC00181,19.037564,73.019576,Nerul Sector 19A,Chain Snatching,2,Afternoon (12-17),2024-08-04
+INC00182,19.035113,73.022816,Nerul Sector 22,Eve Teasing / Harassment,1,Evening (17-21),2025-03-16
+INC00183,19.025033,73.021261,Nerul Sector 23,Molestation,4,Morning (6-12),2024-02-13
+INC00184,19.04115,73.030369,DY Patil Stadium Area,Assault,5,Evening (17-21),2025-12-27
+INC00185,19.043316,73.02624,DY Patil Stadium Area,Assault,4,Night (21-6),2025-09-24
+INC00186,19.032656,73.033358,"Juhu Nagar, Nerul",Eve Teasing / Harassment,3,Night (21-6),2024-09-06
+INC00187,19.045711,73.027192,DY Patil Stadium Area,Robbery,4,Night (21-6),2024-08-14
+INC00188,19.038733,73.013111,Nerul Lake Garden,Eve Teasing / Harassment,2,Night (21-6),2024-12-23
+INC00189,19.036819,73.012552,Nerul West,Stalking,3,Morning (6-12),2024-09-19
+INC00190,19.027388,73.005223,Nerul Sector 28,Eve Teasing / Harassment,2,Night (21-6),2025-10-05
+INC00191,19.033712,73.02251,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),4,Night (21-6),2025-08-01
+INC00192,19.039414,73.017518,Nerul Lake Garden,Stalking,4,Morning (6-12),2025-03-28
+INC00193,19.013871,73.018231,Seawoods Grand Central,Assault,3,Evening (17-21),2025-04-07
+INC00194,19.036255,73.018354,Nerul Sector 19A,Eve Teasing / Harassment,1,Evening (17-21),2025-06-03
+INC00195,19.034702,73.028435,Nerul East,Chain Snatching,4,Night (21-6),2025-08-08
+INC00196,19.028572,73.007805,Nerul Sector 28,Stalking,2,Evening (17-21),2024-12-17
+INC00197,19.040536,73.00838,Nerul Sector 20,Molestation,5,Night (21-6),2025-06-20
+INC00198,19.037878,73.021911,Nerul Sector 8,Theft,4,Evening (17-21),2024-12-12
+INC00199,19.042114,73.016878,Nerul Sector 19A,Eve Teasing / Harassment,2,Morning (6-12),2025-11-25
+INC00200,19.033273,73.02979,Nerul East,Domestic Violence (reported outdoors),3,Evening (17-21),2025-08-19
+INC00201,19.036334,73.022982,Nerul Sector 22,Robbery,4,Evening (17-21),2024-03-27
+INC00202,19.011971,73.018648,Seawoods Grand Central,Assault,4,Night (21-6),2025-12-02
+INC00203,19.033748,73.024364,Nerul Sector 8,Kidnapping Attempt,5,Morning (6-12),2024-11-12
+INC00204,19.031609,73.019734,Nerul Sector 23,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-05-20
+INC00205,19.029617,73.027255,Nerul Sector 22,Eve Teasing / Harassment,1,Night (21-6),2025-09-24
+INC00206,19.033778,73.021734,Nerul Sector 22,Stalking,3,Night (21-6),2024-02-14
+INC00207,19.043914,73.028757,DY Patil Stadium Area,Suspicious Activity / Loitering,1,Night (21-6),2025-04-04
+INC00208,19.018272,73.021476,Nerul Sector 40,Suspicious Activity / Loitering,1,Evening (17-21),2025-08-07
+INC00209,19.029693,73.028254,"Juhu Nagar, Nerul",Robbery,5,Night (21-6),2024-07-23
+INC00210,19.035984,73.020917,Nerul Sector 22,Suspicious Activity / Loitering,1,Evening (17-21),2024-04-15
+INC00211,19.039809,73.021281,Nerul Sector 8,Stalking,4,Evening (17-21),2025-06-09
+INC00212,19.035648,73.021234,Nerul Sector 22,Molestation,5,Night (21-6),2024-01-28
+INC00213,19.041426,73.027016,DY Patil Stadium Area,Molestation,5,Night (21-6),2025-01-18
+INC00214,19.014226,73.026447,Nerul Sector 40,Assault,4,Morning (6-12),2024-10-20
+INC00215,19.035569,73.01911,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,2,Evening (17-21),2024-03-22
+INC00216,19.031947,73.02238,Nerul Railway Station Area,Kidnapping Attempt,5,Morning (6-12),2024-10-22
+INC00217,19.016409,73.019382,Nerul Sector 40,Robbery,5,Morning (6-12),2025-05-26
+INC00218,19.026131,73.017123,Nerul Sector 3,Molestation,4,Afternoon (12-17),2024-01-02
+INC00219,19.032925,73.009333,Nerul West,Eve Teasing / Harassment,2,Morning (6-12),2025-06-22
+INC00220,19.030059,73.020907,Nerul Sector 3,Kidnapping Attempt,4,Evening (17-21),2025-04-26
+INC00221,19.040885,73.019548,Nerul Sector 19A,Theft,1,Evening (17-21),2024-03-10
+INC00222,19.032929,73.011257,Nerul West,Eve Teasing / Harassment,2,Morning (6-12),2024-12-26
+INC00223,19.028708,73.018142,Nerul Sector 3,Suspicious Activity / Loitering,2,Evening (17-21),2024-05-18
+INC00224,19.042228,73.014549,Nerul Sector 20,Chain Snatching,3,Afternoon (12-17),2024-07-23
+INC00225,19.038325,73.014181,Nerul Sector 19A,Robbery,5,Afternoon (12-17),2025-10-24
+INC00226,19.028289,73.010897,Nerul Sector 28,Chain Snatching,3,Afternoon (12-17),2025-01-11
+INC00227,19.048116,73.028946,DY Patil Stadium Area,Robbery,4,Night (21-6),2025-05-23
+INC00228,19.032939,73.024378,Nerul Balaji Mandir Area,Theft,1,Night (21-6),2024-03-21
+INC00229,19.04582,73.029579,DY Patil Stadium Area,Kidnapping Attempt,5,Evening (17-21),2024-03-22
+INC00230,19.037787,73.014952,Nerul Lake Garden,Domestic Violence (reported outdoors),4,Afternoon (12-17),2025-03-30
+INC00231,19.034577,73.011815,Nerul West,Assault,5,Afternoon (12-17),2024-02-28
+INC00232,19.041869,73.01025,Nerul Sector 20,Kidnapping Attempt,5,Night (21-6),2024-05-26
+INC00233,19.026278,73.026538,"Juhu Nagar, Nerul",Assault,4,Evening (17-21),2025-08-03
+INC00234,19.040641,73.017132,Nerul Sector 19A,Assault,4,Evening (17-21),2024-03-19
+INC00235,19.033236,73.023684,Nerul Sector 22,Theft,2,Night (21-6),2024-01-27
+INC00236,19.027992,73.020096,Nerul Sector 23,Kidnapping Attempt,4,Afternoon (12-17),2024-09-23
+INC00237,19.027717,73.030895,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Morning (6-12),2024-03-16
+INC00238,19.027381,73.031707,"Juhu Nagar, Nerul",Eve Teasing / Harassment,2,Night (21-6),2025-12-27
+INC00239,19.0409,73.009323,Nerul Sector 20,Theft,2,Night (21-6),2025-12-18
+INC00240,19.03035,73.02107,Nerul Sector 23,Eve Teasing / Harassment,2,Night (21-6),2024-08-30
+INC00241,19.03021,73.022432,Nerul Balaji Mandir Area,Assault,5,Night (21-6),2025-07-18
+INC00242,19.033896,73.02119,Nerul Sector 22,Theft,3,Night (21-6),2025-05-05
+INC00243,19.036286,73.022275,Nerul Sector 8,Domestic Violence (reported outdoors),3,Morning (6-12),2024-11-20
+INC00244,19.0401,73.012441,Nerul Sector 20,Assault,4,Night (21-6),2025-07-18
+INC00245,19.030142,73.018032,Nerul Sector 23,Kidnapping Attempt,4,Night (21-6),2025-06-14
+INC00246,19.031433,73.021796,Nerul Sector 22,Molestation,4,Night (21-6),2025-06-15
+INC00247,19.014267,73.015505,Seawoods Grand Central,Kidnapping Attempt,5,Morning (6-12),2024-11-06
+INC00248,19.026747,73.018128,Nerul Sector 3,Domestic Violence (reported outdoors),3,Afternoon (12-17),2025-10-01
+INC00249,19.03924,73.017009,Nerul Lake Garden,Chain Snatching,2,Morning (6-12),2025-10-18
+INC00250,19.013709,73.021136,Nerul Sector 50 (Seawoods),Robbery,4,Evening (17-21),2025-10-04
+INC00251,19.028317,73.020653,Nerul Sector 3,Suspicious Activity / Loitering,1,Night (21-6),2025-12-02
+INC00252,19.033379,73.024584,Nerul East,Chain Snatching,3,Evening (17-21),2025-05-10
+INC00253,19.027632,73.030853,"Juhu Nagar, Nerul",Assault,4,Night (21-6),2024-12-19
+INC00254,19.032046,73.026964,Nerul East,Kidnapping Attempt,4,Evening (17-21),2025-04-22
+INC00255,19.04364,73.011983,Nerul Sector 21,Eve Teasing / Harassment,1,Afternoon (12-17),2025-01-28
+INC00256,19.042986,73.029922,DY Patil Stadium Area,Stalking,3,Night (21-6),2024-11-16
+INC00257,19.032105,73.007986,Nerul Sector 28,Kidnapping Attempt,5,Evening (17-21),2024-11-11
+INC00258,19.030185,73.025562,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Night (21-6),2024-08-08
+INC00259,19.031389,73.008251,Nerul West,Domestic Violence (reported outdoors),4,Afternoon (12-17),2024-01-09
+INC00260,19.044947,73.01706,Nerul Sector 21,Assault,5,Evening (17-21),2025-02-14
+INC00261,19.040362,73.013257,Nerul Sector 19A,Kidnapping Attempt,5,Morning (6-12),2025-05-31
+INC00262,19.032115,73.028238,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),2,Morning (6-12),2024-04-09
+INC00263,19.033986,73.031894,Nerul East,Kidnapping Attempt,5,Night (21-6),2024-07-22
+INC00264,19.036211,73.019322,Nerul Sector 8,Chain Snatching,4,Night (21-6),2025-04-30
+INC00265,19.036656,73.02385,Nerul Sector 8,Kidnapping Attempt,5,Evening (17-21),2025-09-19
+INC00266,19.0338,73.020425,Nerul Lake Garden,Theft,2,Evening (17-21),2025-06-05
+INC00267,19.029919,73.017503,Nerul Sector 3,Suspicious Activity / Loitering,1,Evening (17-21),2025-11-20
+INC00268,19.049339,73.01467,Nerul Sector 21,Chain Snatching,4,Afternoon (12-17),2025-11-02
+INC00269,19.019771,73.023668,Nerul Sector 40,Stalking,4,Morning (6-12),2025-11-28
+INC00270,19.014253,73.026586,Nerul Sector 40,Eve Teasing / Harassment,2,Morning (6-12),2024-11-17
+INC00271,19.042211,73.028524,DY Patil Stadium Area,Robbery,5,Night (21-6),2024-03-04
+INC00272,19.033149,73.024987,Nerul Sector 22,Suspicious Activity / Loitering,2,Evening (17-21),2024-06-26
+INC00273,19.033297,73.028739,"Juhu Nagar, Nerul",Assault,4,Evening (17-21),2024-07-15
+INC00274,19.016232,73.021388,Nerul Sector 40,Theft,2,Night (21-6),2025-12-07
+INC00275,19.032536,73.02079,Nerul Balaji Mandir Area,Theft,2,Morning (6-12),2025-11-23
+INC00276,19.029038,73.020841,Nerul Sector 3,Assault,4,Afternoon (12-17),2024-10-21
+INC00277,19.039271,73.010539,Nerul Sector 20,Theft,3,Afternoon (12-17),2025-07-05
+INC00278,19.015964,73.020569,Nerul Sector 50 (Seawoods),Stalking,3,Evening (17-21),2025-08-23
+INC00279,19.01594,73.024359,Nerul Sector 40,Kidnapping Attempt,5,Evening (17-21),2024-02-23
+INC00280,19.044806,73.015739,Nerul Sector 21,Eve Teasing / Harassment,2,Morning (6-12),2025-07-17
+INC00281,19.027255,73.02448,Nerul Sector 23,Suspicious Activity / Loitering,2,Night (21-6),2024-10-21
+INC00282,19.034783,73.012973,Nerul Lake Garden,Eve Teasing / Harassment,2,Evening (17-21),2024-02-08
+INC00283,19.027343,73.023701,Nerul Sector 23,Chain Snatching,4,Night (21-6),2024-07-09
+INC00284,19.014514,73.013574,Seawoods Grand Central,Domestic Violence (reported outdoors),2,Night (21-6),2024-12-09
+INC00285,19.011135,73.01863,Seawoods Grand Central,Kidnapping Attempt,5,Night (21-6),2024-05-17
+INC00286,19.036744,73.020542,Nerul Sector 8,Eve Teasing / Harassment,3,Afternoon (12-17),2025-04-14
+INC00287,19.014249,73.015113,Nerul Sector 50 (Seawoods),Assault,5,Evening (17-21),2024-07-16
+INC00288,19.028888,73.02211,Nerul Sector 23,Robbery,5,Evening (17-21),2024-03-29
+INC00289,19.036354,73.025478,Nerul East,Stalking,4,Evening (17-21),2024-09-11
+INC00290,19.031986,73.017584,Nerul Railway Station Area,Theft,2,Evening (17-21),2025-08-09
+INC00291,19.031992,73.018576,Nerul Railway Station Area,Molestation,3,Night (21-6),2025-04-21
+INC00292,19.008778,73.018989,Seawoods Grand Central,Theft,1,Evening (17-21),2024-10-29
+INC00293,19.035917,73.007753,Nerul West,Stalking,4,Afternoon (12-17),2025-09-12
+INC00294,19.034327,73.010394,Nerul West,Suspicious Activity / Loitering,1,Night (21-6),2025-11-27
+INC00295,19.040704,73.011225,Nerul Sector 20,Assault,3,Night (21-6),2024-04-24
+INC00296,19.04243,73.018923,Nerul Sector 19A,Molestation,4,Afternoon (12-17),2025-06-16
+INC00297,19.02693,73.027643,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),4,Morning (6-12),2025-06-06
+INC00298,19.03247,73.029627,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Evening (17-21),2024-02-29
+INC00299,19.029699,73.019455,Nerul Sector 3,Chain Snatching,4,Afternoon (12-17),2024-01-04
+INC00300,19.030626,73.004362,Nerul Sector 28,Assault,3,Evening (17-21),2024-03-02
+INC00301,19.044389,73.010777,Nerul Sector 20,Theft,3,Afternoon (12-17),2024-05-18
+INC00302,19.043996,73.030131,DY Patil Stadium Area,Suspicious Activity / Loitering,2,Evening (17-21),2025-11-30
+INC00303,19.027064,73.019882,Nerul Sector 3,Eve Teasing / Harassment,2,Night (21-6),2025-02-06
+INC00304,19.034019,73.02683,Nerul Sector 8,Chain Snatching,3,Night (21-6),2025-04-19
+INC00305,19.029393,73.016034,Nerul Sector 3,Molestation,4,Evening (17-21),2024-06-07
+INC00306,19.010008,73.022002,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,2,Night (21-6),2025-03-05
+INC00307,19.031825,73.016238,Nerul Railway Station Area,Domestic Violence (reported outdoors),2,Evening (17-21),2025-11-19
+INC00308,19.037758,73.012054,Nerul Sector 19A,Suspicious Activity / Loitering,1,Evening (17-21),2024-02-27
+INC00309,19.033031,73.022814,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2025-11-19
+INC00310,19.034395,73.01951,Nerul Lake Garden,Kidnapping Attempt,5,Evening (17-21),2024-10-08
+INC00311,19.040254,73.016433,Nerul Sector 19A,Stalking,4,Evening (17-21),2024-02-18
+INC00312,19.038533,73.011371,Nerul West,Kidnapping Attempt,5,Night (21-6),2025-02-22
+INC00313,19.031399,73.021971,Nerul Sector 22,Kidnapping Attempt,5,Afternoon (12-17),2024-08-18
+INC00314,19.01436,73.014655,Seawoods Grand Central,Suspicious Activity / Loitering,1,Evening (17-21),2025-03-02
+INC00315,19.03024,73.016107,Nerul Sector 3,Theft,2,Evening (17-21),2024-03-21
+INC00316,19.032777,73.02674,"Juhu Nagar, Nerul",Molestation,3,Afternoon (12-17),2025-11-20
+INC00317,19.042789,73.013205,Nerul Sector 19A,Domestic Violence (reported outdoors),3,Evening (17-21),2024-12-06
+INC00318,19.015156,73.013623,Seawoods Grand Central,Molestation,3,Night (21-6),2025-05-05
+INC00319,19.019565,73.02463,Nerul Sector 40,Robbery,4,Evening (17-21),2024-10-16
+INC00320,19.03473,73.02919,Nerul East,Theft,2,Evening (17-21),2025-05-24
+INC00321,19.026789,73.033851,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Night (21-6),2025-01-14
+INC00322,19.035811,73.017,Nerul Lake Garden,Molestation,4,Morning (6-12),2025-07-20
+INC00323,19.043362,73.02457,DY Patil Stadium Area,Molestation,5,Evening (17-21),2024-09-08
+INC00324,19.034405,73.025548,Nerul Balaji Mandir Area,Assault,4,Night (21-6),2025-05-15
+INC00325,19.033687,73.023862,Nerul Balaji Mandir Area,Assault,4,Morning (6-12),2025-07-13
+INC00326,19.031472,73.025115,Nerul Balaji Mandir Area,Chain Snatching,2,Night (21-6),2024-03-17
+INC00327,19.041915,73.014999,Nerul Sector 19A,Molestation,3,Night (21-6),2024-01-10
+INC00328,19.030046,73.006986,Nerul Sector 28,Domestic Violence (reported outdoors),4,Night (21-6),2024-01-17
+INC00329,19.034158,73.018991,Nerul Railway Station Area,Chain Snatching,3,Evening (17-21),2024-10-20
+INC00330,19.033918,73.021283,Nerul Railway Station Area,Robbery,4,Morning (6-12),2024-04-08
+INC00331,19.034191,73.020535,Nerul Sector 8,Kidnapping Attempt,5,Night (21-6),2024-09-30
+INC00332,19.031632,73.031674,Nerul East,Suspicious Activity / Loitering,1,Night (21-6),2024-08-19
+INC00333,19.012972,73.020283,Seawoods Grand Central,Chain Snatching,2,Evening (17-21),2025-01-21
+INC00334,19.029808,73.018094,Nerul Sector 3,Stalking,2,Evening (17-21),2025-03-20
+INC00335,19.037027,73.019364,Nerul Lake Garden,Eve Teasing / Harassment,1,Afternoon (12-17),2025-12-09
+INC00336,19.032169,73.025393,Nerul Balaji Mandir Area,Theft,1,Afternoon (12-17),2024-11-18
+INC00337,19.037592,73.020396,Nerul Railway Station Area,Robbery,3,Afternoon (12-17),2025-07-31
+INC00338,19.018534,73.025796,Nerul Sector 40,Kidnapping Attempt,5,Evening (17-21),2024-05-23
+INC00339,19.040506,73.014795,Nerul Sector 20,Chain Snatching,2,Evening (17-21),2024-03-18
+INC00340,19.037341,73.017411,Nerul Lake Garden,Domestic Violence (reported outdoors),4,Night (21-6),2024-11-30
+INC00341,19.034973,73.021968,Nerul Railway Station Area,Suspicious Activity / Loitering,2,Afternoon (12-17),2025-07-20
+INC00342,19.034455,73.029438,Nerul East,Robbery,3,Night (21-6),2024-10-29
+INC00343,19.019705,73.019656,Nerul Sector 40,Stalking,4,Night (21-6),2025-10-11
+INC00344,19.034917,73.023033,Nerul Sector 22,Eve Teasing / Harassment,1,Morning (6-12),2024-11-11
+INC00345,19.028879,73.028158,"Juhu Nagar, Nerul",Stalking,2,Afternoon (12-17),2025-04-04
+INC00346,19.030438,73.016264,Nerul Sector 3,Chain Snatching,2,Evening (17-21),2024-04-05
+INC00347,19.03941,73.012599,Nerul Lake Garden,Robbery,5,Night (21-6),2025-07-26
+INC00348,19.018576,73.020357,Nerul Sector 40,Robbery,4,Morning (6-12),2024-11-04
+INC00349,19.012445,73.015506,Nerul Sector 50 (Seawoods),Robbery,5,Evening (17-21),2025-05-10
+INC00350,19.039389,73.014554,Nerul Sector 20,Suspicious Activity / Loitering,1,Evening (17-21),2024-05-18
+INC00351,19.007554,73.016666,Seawoods Grand Central,Domestic Violence (reported outdoors),4,Night (21-6),2024-12-03
+INC00352,19.028678,73.032524,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),3,Evening (17-21),2025-09-09
+INC00353,19.029832,73.005421,Nerul Sector 28,Robbery,4,Afternoon (12-17),2025-12-12
+INC00354,19.037742,73.024256,Nerul Balaji Mandir Area,Assault,5,Afternoon (12-17),2025-02-06
+INC00355,19.031911,73.010511,Nerul West,Domestic Violence (reported outdoors),3,Night (21-6),2025-07-17
+INC00356,19.037524,73.019393,Nerul Railway Station Area,Molestation,5,Night (21-6),2025-12-10
+INC00357,19.043052,73.013365,Nerul Sector 20,Robbery,5,Morning (6-12),2024-11-06
+INC00358,19.016021,73.020233,Nerul Sector 40,Robbery,5,Morning (6-12),2025-09-04
+INC00359,19.034658,73.022275,Nerul Balaji Mandir Area,Robbery,3,Night (21-6),2025-01-03
+INC00360,19.030751,73.020315,Nerul Sector 3,Eve Teasing / Harassment,2,Night (21-6),2024-12-29
+INC00361,19.029176,73.017354,Nerul Sector 23,Robbery,4,Night (21-6),2025-03-16
+INC00362,19.041584,73.01207,Nerul Sector 21,Kidnapping Attempt,5,Evening (17-21),2025-02-04
+INC00363,19.032179,73.030709,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Evening (17-21),2024-01-26
+INC00364,19.030836,73.021328,Nerul Balaji Mandir Area,Eve Teasing / Harassment,1,Night (21-6),2024-05-25
+INC00365,19.033495,73.009643,Nerul West,Molestation,5,Evening (17-21),2024-04-09
+INC00366,19.031776,73.02962,"Juhu Nagar, Nerul",Eve Teasing / Harassment,2,Morning (6-12),2025-12-28
+INC00367,19.041681,73.012745,Nerul Sector 21,Eve Teasing / Harassment,2,Night (21-6),2024-09-06
+INC00368,19.034396,73.020281,Nerul Sector 8,Kidnapping Attempt,5,Night (21-6),2024-08-25
+INC00369,19.036038,73.025491,Nerul East,Robbery,5,Morning (6-12),2025-09-20
+INC00370,19.029597,73.007436,Nerul Sector 28,Chain Snatching,3,Afternoon (12-17),2025-12-21
+INC00371,19.041119,73.013396,Nerul Sector 20,Kidnapping Attempt,5,Evening (17-21),2024-07-20
+INC00372,19.026912,73.031366,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Evening (17-21),2025-09-17
+INC00373,19.035696,73.026783,Nerul East,Suspicious Activity / Loitering,1,Night (21-6),2025-12-23
+INC00374,19.014849,73.018221,Seawoods Grand Central,Stalking,3,Morning (6-12),2024-11-08
+INC00375,19.042964,73.015547,Nerul Sector 21,Kidnapping Attempt,5,Evening (17-21),2024-05-21
+INC00376,19.034384,73.027893,Nerul East,Kidnapping Attempt,5,Evening (17-21),2025-05-16
+INC00377,19.008622,73.016017,Seawoods Grand Central,Suspicious Activity / Loitering,1,Night (21-6),2024-01-10
+INC00378,19.031092,73.024522,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Evening (17-21),2025-05-18
+INC00379,19.046681,73.026551,DY Patil Stadium Area,Stalking,2,Evening (17-21),2024-08-13
+INC00380,19.007762,73.015299,Seawoods Grand Central,Theft,2,Night (21-6),2025-08-02
+INC00381,19.034398,73.018906,Nerul Balaji Mandir Area,Eve Teasing / Harassment,2,Night (21-6),2025-01-10
+INC00382,19.032581,73.013333,Nerul Sector 3,Suspicious Activity / Loitering,1,Night (21-6),2024-04-14
+INC00383,19.016382,73.026995,Nerul Sector 40,Suspicious Activity / Loitering,1,Evening (17-21),2024-03-30
+INC00384,19.032922,73.026939,"Juhu Nagar, Nerul",Molestation,4,Night (21-6),2025-08-25
+INC00385,19.037888,73.010882,Nerul West,Robbery,4,Evening (17-21),2024-07-30
+INC00386,19.032444,73.008561,Nerul Sector 28,Kidnapping Attempt,5,Evening (17-21),2024-06-21
+INC00387,19.040332,73.014841,Nerul Lake Garden,Domestic Violence (reported outdoors),3,Night (21-6),2025-06-10
+INC00388,19.042585,73.016001,Nerul Sector 21,Robbery,3,Night (21-6),2025-11-02
+INC00389,19.034611,73.021562,Nerul Sector 22,Stalking,3,Night (21-6),2025-11-23
+INC00390,19.034916,73.028619,Nerul East,Theft,3,Evening (17-21),2024-03-18
+INC00391,19.039723,73.012998,Nerul Sector 20,Assault,5,Night (21-6),2024-12-01
+INC00392,19.036851,73.022477,Nerul Railway Station Area,Eve Teasing / Harassment,3,Evening (17-21),2025-12-15
+INC00393,19.037801,73.012365,Nerul West,Robbery,4,Night (21-6),2024-08-04
+INC00394,19.032148,73.024627,Nerul Balaji Mandir Area,Assault,4,Evening (17-21),2025-05-11
+INC00395,19.039653,73.018598,Nerul Lake Garden,Chain Snatching,2,Evening (17-21),2025-04-15
+INC00396,19.030894,73.022561,Nerul Railway Station Area,Suspicious Activity / Loitering,2,Morning (6-12),2025-03-14
+INC00397,19.033966,73.011275,Nerul Sector 28,Theft,2,Night (21-6),2024-10-07
+INC00398,19.041737,73.009003,Nerul Sector 20,Assault,4,Morning (6-12),2025-10-02
+INC00399,19.013308,73.019542,Seawoods Grand Central,Robbery,3,Night (21-6),2024-01-02
+INC00400,19.029814,73.005062,Nerul Sector 28,Molestation,5,Morning (6-12),2025-12-13
+INC00401,19.039037,73.020405,Nerul Lake Garden,Robbery,4,Evening (17-21),2024-08-22
+INC00402,19.031715,73.030448,Nerul East,Eve Teasing / Harassment,2,Evening (17-21),2024-11-02
+INC00403,19.032062,73.027007,Nerul Sector 22,Stalking,3,Morning (6-12),2025-07-30
+INC00404,19.034783,73.017013,Nerul Railway Station Area,Assault,4,Evening (17-21),2024-06-04
+INC00405,19.045929,73.026539,DY Patil Stadium Area,Molestation,3,Night (21-6),2024-05-23
+INC00406,19.046217,73.013072,Nerul Sector 21,Robbery,4,Night (21-6),2024-09-10
+INC00407,19.013657,73.016985,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),4,Night (21-6),2025-12-08
+INC00408,19.036683,73.020967,Nerul Railway Station Area,Theft,2,Evening (17-21),2025-06-05
+INC00409,19.031983,73.006364,Nerul Sector 28,Chain Snatching,3,Evening (17-21),2024-04-25
+INC00410,19.017997,73.023751,Nerul Sector 40,Kidnapping Attempt,4,Night (21-6),2024-11-20
+INC00411,19.032095,73.027212,Nerul Sector 22,Robbery,4,Evening (17-21),2024-06-25
+INC00412,19.037636,73.024163,Nerul Balaji Mandir Area,Chain Snatching,2,Morning (6-12),2024-08-08
+INC00413,19.043181,73.019289,Nerul Sector 19A,Robbery,4,Evening (17-21),2025-05-28
+INC00414,19.044389,73.026218,DY Patil Stadium Area,Kidnapping Attempt,5,Afternoon (12-17),2024-11-13
+INC00415,19.04059,73.008626,Nerul Sector 20,Stalking,3,Evening (17-21),2025-10-11
+INC00416,19.038981,73.0105,Nerul Sector 20,Molestation,3,Afternoon (12-17),2025-03-20
+INC00417,19.045127,73.014871,Nerul Sector 21,Theft,2,Morning (6-12),2025-12-25
+INC00418,19.034612,73.021811,Nerul Sector 22,Assault,4,Afternoon (12-17),2024-05-09
+INC00419,19.014363,73.015944,Nerul Sector 50 (Seawoods),Chain Snatching,4,Night (21-6),2024-10-05
+INC00420,19.033511,73.024699,Nerul Sector 8,Domestic Violence (reported outdoors),3,Evening (17-21),2025-06-07
+INC00421,19.031444,73.012875,Nerul West,Stalking,3,Afternoon (12-17),2024-04-15
+INC00422,19.043327,73.014071,Nerul Sector 21,Chain Snatching,2,Afternoon (12-17),2025-04-28
+INC00423,19.034064,73.007201,Nerul West,Chain Snatching,4,Afternoon (12-17),2024-09-11
+INC00424,19.048327,73.025559,DY Patil Stadium Area,Eve Teasing / Harassment,2,Morning (6-12),2025-11-20
+INC00425,19.037235,73.018135,Nerul Sector 19A,Chain Snatching,4,Morning (6-12),2025-04-21
+INC00426,19.013688,73.015986,Seawoods Grand Central,Eve Teasing / Harassment,3,Morning (6-12),2024-07-24
+INC00427,19.01201,73.015931,Seawoods Grand Central,Domestic Violence (reported outdoors),3,Evening (17-21),2025-08-28
+INC00428,19.037982,73.024207,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Afternoon (12-17),2025-02-23
+INC00429,19.031764,73.018471,Nerul Railway Station Area,Chain Snatching,3,Morning (6-12),2025-11-04
+INC00430,19.037792,73.029818,Nerul East,Eve Teasing / Harassment,2,Evening (17-21),2024-08-31
+INC00431,19.044936,73.023479,DY Patil Stadium Area,Stalking,3,Morning (6-12),2024-08-25
+INC00432,19.036304,73.026165,Nerul Sector 8,Suspicious Activity / Loitering,1,Evening (17-21),2025-06-01
+INC00433,19.034098,73.023655,Nerul Sector 22,Domestic Violence (reported outdoors),2,Evening (17-21),2024-05-13
+INC00434,19.016333,73.025807,Nerul Sector 40,Robbery,4,Evening (17-21),2024-10-05
+INC00435,19.014597,73.020622,Nerul Sector 40,Domestic Violence (reported outdoors),2,Afternoon (12-17),2024-06-17
+INC00436,19.029728,73.029252,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Night (21-6),2024-07-31
+INC00437,19.028466,73.02812,"Juhu Nagar, Nerul",Eve Teasing / Harassment,1,Afternoon (12-17),2025-12-03
+INC00438,19.014111,73.019075,Seawoods Grand Central,Chain Snatching,3,Night (21-6),2024-12-01
+INC00439,19.02973,73.022486,Nerul Sector 22,Assault,5,Evening (17-21),2025-11-24
+INC00440,19.009581,73.021425,Seawoods Grand Central,Chain Snatching,4,Night (21-6),2025-07-23
+INC00441,19.027999,73.016696,Nerul Sector 3,Stalking,2,Morning (6-12),2024-08-15
+INC00442,19.030585,73.023705,Nerul Sector 22,Eve Teasing / Harassment,2,Night (21-6),2024-03-17
+INC00443,19.037877,73.017282,Nerul Railway Station Area,Suspicious Activity / Loitering,1,Morning (6-12),2024-12-05
+INC00444,19.041842,73.013688,Nerul Sector 21,Stalking,4,Night (21-6),2025-02-08
+INC00445,19.030236,73.023466,Nerul Balaji Mandir Area,Stalking,3,Afternoon (12-17),2024-07-10
+INC00446,19.010739,73.022067,Nerul Sector 50 (Seawoods),Chain Snatching,4,Evening (17-21),2025-05-25
+INC00447,19.048062,73.026832,DY Patil Stadium Area,Eve Teasing / Harassment,2,Evening (17-21),2025-03-05
+INC00448,19.031141,73.010378,Nerul Sector 28,Molestation,3,Night (21-6),2025-12-31
+INC00449,19.034837,73.012251,Nerul West,Assault,4,Evening (17-21),2024-07-03
+INC00450,19.032451,73.017452,Nerul Railway Station Area,Theft,1,Night (21-6),2025-04-28
+INC00451,19.035859,73.023672,Nerul Sector 8,Molestation,5,Morning (6-12),2025-11-03
+INC00452,19.016132,73.02553,Nerul Sector 40,Chain Snatching,3,Evening (17-21),2025-02-01
+INC00453,19.038482,73.013932,Nerul West,Stalking,3,Afternoon (12-17),2024-11-21
+INC00454,19.038312,73.006226,Nerul West,Assault,4,Evening (17-21),2024-07-11
+INC00455,19.034337,73.019404,Nerul Balaji Mandir Area,Chain Snatching,2,Morning (6-12),2025-09-08
+INC00456,19.014159,73.022824,Nerul Sector 40,Assault,4,Night (21-6),2024-12-14
+INC00457,19.03135,73.023754,Nerul Sector 23,Assault,3,Morning (6-12),2025-08-23
+INC00458,19.035195,73.027272,Nerul Sector 22,Assault,3,Evening (17-21),2025-11-09
+INC00459,19.035688,73.026692,Nerul East,Assault,4,Night (21-6),2025-03-23
+INC00460,19.035193,73.019394,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Afternoon (12-17),2025-08-26
+INC00461,19.027027,73.022872,Nerul Sector 23,Theft,2,Afternoon (12-17),2024-01-02
+INC00462,19.037806,73.030167,Nerul East,Domestic Violence (reported outdoors),2,Afternoon (12-17),2024-11-21
+INC00463,19.019117,73.019833,Nerul Sector 40,Suspicious Activity / Loitering,1,Evening (17-21),2024-03-20
+INC00464,19.016774,73.021556,Nerul Sector 40,Eve Teasing / Harassment,2,Evening (17-21),2024-09-28
+INC00465,19.027996,73.004542,Nerul Sector 28,Theft,1,Night (21-6),2024-02-19
+INC00466,19.034506,73.027357,Nerul East,Stalking,4,Evening (17-21),2025-01-22
+INC00467,19.035368,73.006811,Nerul West,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-03-16
+INC00468,19.038159,73.01425,Nerul Sector 19A,Eve Teasing / Harassment,1,Evening (17-21),2025-01-19
+INC00469,19.029856,73.021376,Nerul Sector 23,Eve Teasing / Harassment,2,Evening (17-21),2025-09-20
+INC00470,19.035636,73.021451,Nerul Balaji Mandir Area,Stalking,4,Afternoon (12-17),2024-04-13
+INC00471,19.034144,73.01402,Nerul Lake Garden,Kidnapping Attempt,5,Night (21-6),2024-10-31
+INC00472,19.014767,73.022143,Nerul Sector 40,Kidnapping Attempt,5,Afternoon (12-17),2025-01-04
+INC00473,19.033321,73.018056,Nerul Railway Station Area,Domestic Violence (reported outdoors),4,Afternoon (12-17),2024-01-27
+INC00474,19.027367,73.006334,Nerul Sector 28,Eve Teasing / Harassment,3,Night (21-6),2024-11-11
+INC00475,19.034768,73.031159,Nerul East,Theft,1,Evening (17-21),2025-01-31
+INC00476,19.026968,73.020052,Nerul Sector 23,Stalking,4,Morning (6-12),2025-03-26
+INC00477,19.028107,73.032697,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),2,Afternoon (12-17),2025-12-14
+INC00478,19.042186,73.01275,Nerul Sector 21,Kidnapping Attempt,5,Night (21-6),2025-08-26
+INC00479,19.018429,73.025726,Nerul Sector 40,Kidnapping Attempt,5,Night (21-6),2025-12-04
+INC00480,19.034582,73.019885,Nerul Balaji Mandir Area,Theft,1,Evening (17-21),2024-02-05
+INC00481,19.03757,73.023135,Nerul Sector 8,Domestic Violence (reported outdoors),4,Morning (6-12),2025-04-04
+INC00482,19.031592,73.018337,Nerul Sector 23,Molestation,4,Morning (6-12),2025-03-09
+INC00483,19.044406,73.010483,Nerul Sector 20,Stalking,3,Evening (17-21),2024-03-09
+INC00484,19.039605,73.010179,Nerul Sector 20,Assault,4,Evening (17-21),2024-01-13
+INC00485,19.039253,73.0199,Nerul Sector 8,Stalking,4,Evening (17-21),2025-08-19
+INC00486,19.048899,73.014501,Nerul Sector 21,Eve Teasing / Harassment,2,Night (21-6),2024-12-18
+INC00487,19.043113,73.028238,DY Patil Stadium Area,Domestic Violence (reported outdoors),4,Morning (6-12),2024-10-09
+INC00488,19.032151,73.028869,Nerul East,Robbery,3,Evening (17-21),2024-12-05
+INC00489,19.014394,73.022802,Nerul Sector 40,Theft,2,Morning (6-12),2024-11-06
+INC00490,19.009743,73.017433,Seawoods Grand Central,Eve Teasing / Harassment,2,Morning (6-12),2025-03-29
+INC00491,19.034655,73.015834,Nerul Lake Garden,Eve Teasing / Harassment,2,Evening (17-21),2025-02-20
+INC00492,19.036076,73.024938,Nerul Balaji Mandir Area,Chain Snatching,3,Morning (6-12),2025-12-27
+INC00493,19.036227,73.025244,Nerul Sector 8,Kidnapping Attempt,5,Afternoon (12-17),2024-07-24
+INC00494,19.037796,73.015352,Nerul Sector 19A,Assault,4,Afternoon (12-17),2025-04-20
+INC00495,19.036176,73.026385,Nerul Sector 8,Chain Snatching,4,Evening (17-21),2025-08-31
+INC00496,19.027421,73.032964,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),3,Evening (17-21),2024-09-21
+INC00497,19.038781,73.010093,Nerul Sector 20,Stalking,3,Night (21-6),2025-10-24
+INC00498,19.019422,73.021153,Nerul Sector 40,Robbery,3,Night (21-6),2025-11-29
+INC00499,19.033693,73.016759,Nerul Railway Station Area,Stalking,2,Afternoon (12-17),2025-09-14
+INC00500,19.013202,73.019175,Seawoods Grand Central,Theft,3,Night (21-6),2024-12-23
+INC00501,19.028016,73.029734,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Evening (17-21),2024-01-08
+INC00502,19.040995,73.026732,Nerul Sector 8,Assault,5,Afternoon (12-17),2024-04-20
+INC00503,19.030511,73.025907,Nerul Balaji Mandir Area,Assault,4,Afternoon (12-17),2025-12-29
+INC00504,19.009007,73.017638,Seawoods Grand Central,Molestation,3,Night (21-6),2025-09-06
+INC00505,19.036284,73.029446,Nerul East,Chain Snatching,4,Night (21-6),2024-09-22
+INC00506,19.044237,73.028894,DY Patil Stadium Area,Domestic Violence (reported outdoors),3,Evening (17-21),2025-12-31
+INC00507,19.019491,73.024107,Nerul Sector 40,Suspicious Activity / Loitering,1,Evening (17-21),2024-06-23
+INC00508,19.027449,73.013781,Nerul Sector 3,Stalking,3,Night (21-6),2025-07-26
+INC00509,19.031575,73.024197,Nerul Sector 23,Eve Teasing / Harassment,2,Evening (17-21),2024-11-10
+INC00510,19.047305,73.025651,DY Patil Stadium Area,Theft,2,Evening (17-21),2024-04-30
+INC00511,19.030429,73.023075,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),2,Evening (17-21),2024-07-18
+INC00512,19.033959,73.024446,Nerul Sector 8,Kidnapping Attempt,5,Evening (17-21),2024-06-03
+INC00513,19.036939,73.023241,Nerul Sector 22,Domestic Violence (reported outdoors),4,Morning (6-12),2024-07-03
+INC00514,19.040401,73.012048,Nerul Sector 20,Stalking,3,Evening (17-21),2024-01-05
+INC00515,19.028188,73.03209,"Juhu Nagar, Nerul",Stalking,3,Evening (17-21),2024-03-31
+INC00516,19.033916,73.025568,Nerul Sector 22,Robbery,5,Night (21-6),2025-01-27
+INC00517,19.030202,73.017295,Nerul Railway Station Area,Assault,3,Night (21-6),2025-06-27
+INC00518,19.026143,73.004033,Nerul Sector 28,Molestation,4,Night (21-6),2024-12-18
+INC00519,19.008531,73.016568,Seawoods Grand Central,Domestic Violence (reported outdoors),3,Afternoon (12-17),2024-02-16
+INC00520,19.015088,73.017147,Seawoods Grand Central,Kidnapping Attempt,5,Evening (17-21),2025-12-04
+INC00521,19.031742,73.027711,Nerul Sector 22,Assault,4,Afternoon (12-17),2025-02-17
+INC00522,19.031727,73.021517,Nerul Railway Station Area,Stalking,3,Night (21-6),2025-08-26
+INC00523,19.034352,73.021933,Nerul Sector 8,Chain Snatching,5,Night (21-6),2024-09-18
+INC00524,19.030985,73.017751,Nerul Sector 3,Chain Snatching,2,Night (21-6),2024-01-21
+INC00525,19.041318,73.015034,Nerul Sector 19A,Robbery,3,Evening (17-21),2025-04-30
+INC00526,19.030644,73.025986,Nerul Sector 22,Chain Snatching,3,Evening (17-21),2024-04-13
+INC00527,19.03516,73.023845,Nerul Sector 8,Stalking,5,Night (21-6),2024-04-17
+INC00528,19.03875,73.019942,Nerul Sector 8,Eve Teasing / Harassment,2,Evening (17-21),2025-09-15
+INC00529,19.032224,73.010652,Nerul Sector 28,Molestation,4,Night (21-6),2024-10-29
+INC00530,19.024315,73.020971,Nerul Sector 23,Molestation,5,Evening (17-21),2024-01-03
+INC00531,19.035273,73.022955,Nerul Railway Station Area,Domestic Violence (reported outdoors),4,Morning (6-12),2024-04-02
+INC00532,19.0336,73.024789,Nerul Sector 8,Theft,3,Evening (17-21),2024-10-30
+INC00533,19.012214,73.015798,Nerul Sector 50 (Seawoods),Stalking,3,Night (21-6),2025-01-03
+INC00534,19.035908,73.013427,Nerul Lake Garden,Chain Snatching,2,Night (21-6),2025-11-10
+INC00535,19.026629,73.024156,Nerul Sector 23,Domestic Violence (reported outdoors),3,Night (21-6),2024-04-05
+INC00536,19.03752,73.007463,Nerul West,Robbery,5,Night (21-6),2024-10-05
+INC00537,19.036519,73.027826,Nerul East,Robbery,4,Morning (6-12),2025-12-13
+INC00538,19.043653,73.018455,Nerul Sector 19A,Eve Teasing / Harassment,3,Night (21-6),2025-05-09
+INC00539,19.02745,73.029038,"Juhu Nagar, Nerul",Assault,3,Night (21-6),2024-05-13
+INC00540,19.037363,73.018903,Nerul Balaji Mandir Area,Robbery,5,Morning (6-12),2024-09-24
+INC00541,19.032599,73.019447,Nerul Lake Garden,Kidnapping Attempt,5,Night (21-6),2025-11-16
+INC00542,19.036653,73.018006,Nerul Lake Garden,Domestic Violence (reported outdoors),2,Evening (17-21),2024-09-11
+INC00543,19.032766,73.02341,Nerul Balaji Mandir Area,Robbery,4,Night (21-6),2025-07-25
+INC00544,19.035893,73.019175,Nerul Sector 19A,Kidnapping Attempt,5,Night (21-6),2024-06-18
+INC00545,19.042511,73.009565,Nerul Sector 20,Assault,4,Morning (6-12),2024-08-16
+INC00546,19.031147,73.016226,Nerul Sector 3,Molestation,3,Evening (17-21),2025-08-09
+INC00547,19.026704,73.029988,"Juhu Nagar, Nerul",Assault,3,Night (21-6),2025-10-31
+INC00548,19.030721,73.018999,Nerul Railway Station Area,Kidnapping Attempt,4,Night (21-6),2025-09-10
+INC00549,19.014621,73.017999,Seawoods Grand Central,Suspicious Activity / Loitering,1,Evening (17-21),2024-02-25
+INC00550,19.020755,73.021656,Nerul Sector 40,Domestic Violence (reported outdoors),4,Night (21-6),2025-01-07
+INC00551,19.026912,73.032075,"Juhu Nagar, Nerul",Molestation,3,Evening (17-21),2025-10-10
+INC00552,19.011882,73.016491,Seawoods Grand Central,Eve Teasing / Harassment,1,Night (21-6),2025-05-19
+INC00553,19.035575,73.02644,Nerul Sector 22,Robbery,3,Afternoon (12-17),2024-07-19
+INC00554,19.026966,73.010818,Nerul Sector 28,Molestation,5,Night (21-6),2024-07-14
+INC00555,19.033362,73.015816,Nerul Lake Garden,Domestic Violence (reported outdoors),2,Night (21-6),2025-04-06
+INC00556,19.031268,73.03365,"Juhu Nagar, Nerul",Stalking,4,Morning (6-12),2024-02-19
+INC00557,19.033482,73.019711,Nerul Sector 3,Suspicious Activity / Loitering,1,Night (21-6),2024-06-26
+INC00558,19.029828,73.02576,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2025-01-28
+INC00559,19.048836,73.030327,DY Patil Stadium Area,Molestation,4,Evening (17-21),2024-12-17
+INC00560,19.011123,73.014567,Seawoods Grand Central,Robbery,4,Night (21-6),2025-07-14
+INC00561,19.038195,73.019984,Nerul Lake Garden,Molestation,4,Afternoon (12-17),2024-10-24
+INC00562,19.03837,73.007061,Nerul West,Stalking,3,Night (21-6),2024-12-26
+INC00563,19.029843,73.017565,Nerul Sector 3,Robbery,4,Night (21-6),2025-03-08
+INC00564,19.034082,73.015902,Nerul Railway Station Area,Stalking,2,Night (21-6),2024-07-23
+INC00565,19.014501,73.016287,Nerul Sector 50 (Seawoods),Theft,3,Morning (6-12),2024-03-04
+INC00566,19.009132,73.017829,Seawoods Grand Central,Assault,5,Morning (6-12),2025-11-22
+INC00567,19.032919,73.018939,Nerul Sector 3,Kidnapping Attempt,5,Afternoon (12-17),2025-12-13
+INC00568,19.013043,73.013876,Seawoods Grand Central,Robbery,5,Evening (17-21),2025-12-02
+INC00569,19.040227,73.01293,Nerul Lake Garden,Theft,2,Evening (17-21),2025-03-29
+INC00570,19.021292,73.024637,Nerul Sector 40,Assault,4,Night (21-6),2024-07-17
+INC00571,19.011091,73.021368,Seawoods Grand Central,Eve Teasing / Harassment,2,Night (21-6),2025-06-10
+INC00572,19.044518,73.013428,Nerul Sector 21,Kidnapping Attempt,5,Morning (6-12),2025-08-21
+INC00573,19.008545,73.018731,Nerul Sector 50 (Seawoods),Stalking,3,Afternoon (12-17),2024-11-26
+INC00574,19.041989,73.016703,Nerul Sector 19A,Theft,3,Night (21-6),2025-07-17
+INC00575,19.031583,73.011661,Nerul West,Kidnapping Attempt,5,Night (21-6),2025-06-17
+INC00576,19.04279,73.008275,Nerul Sector 20,Kidnapping Attempt,5,Morning (6-12),2024-08-14
+INC00577,19.031307,73.006649,Nerul Sector 28,Theft,2,Night (21-6),2025-09-25
+INC00578,19.036799,73.023491,Nerul Sector 8,Chain Snatching,3,Night (21-6),2025-04-01
+INC00579,19.021236,73.02391,Nerul Sector 40,Domestic Violence (reported outdoors),3,Night (21-6),2025-11-29
+INC00580,19.035551,73.01887,Nerul Lake Garden,Eve Teasing / Harassment,3,Afternoon (12-17),2024-10-16
+INC00581,19.037191,73.022277,Nerul Railway Station Area,Assault,5,Evening (17-21),2024-10-30
+INC00582,19.028563,73.004659,Nerul Sector 28,Eve Teasing / Harassment,2,Night (21-6),2025-07-04
+INC00583,19.026059,73.013524,Nerul Sector 3,Molestation,5,Night (21-6),2024-07-29
+INC00584,19.03263,73.020029,Nerul Sector 3,Robbery,3,Night (21-6),2024-06-06
+INC00585,19.033574,73.018354,Nerul Railway Station Area,Eve Teasing / Harassment,1,Morning (6-12),2024-09-14
+INC00586,19.026564,73.019573,Nerul Sector 3,Theft,3,Evening (17-21),2025-10-07
+INC00587,19.034464,73.024135,Nerul East,Eve Teasing / Harassment,1,Evening (17-21),2025-09-25
+INC00588,19.042548,73.011685,Nerul Sector 20,Eve Teasing / Harassment,2,Night (21-6),2024-04-18
+INC00589,19.013795,73.015911,Seawoods Grand Central,Eve Teasing / Harassment,2,Night (21-6),2025-03-24
+INC00590,19.034161,73.029286,Nerul East,Suspicious Activity / Loitering,1,Evening (17-21),2024-05-19
+INC00591,19.037374,73.030796,Nerul East,Theft,2,Afternoon (12-17),2025-10-25
+INC00592,19.038659,73.006089,Nerul West,Kidnapping Attempt,5,Morning (6-12),2024-01-06
+INC00593,19.035297,73.031576,Nerul East,Theft,2,Night (21-6),2024-12-18
+INC00594,19.029301,73.009167,Nerul Sector 28,Kidnapping Attempt,5,Afternoon (12-17),2024-08-14
+INC00595,19.010055,73.016451,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),3,Night (21-6),2025-07-16
+INC00596,19.031157,73.026585,"Juhu Nagar, Nerul",Eve Teasing / Harassment,2,Morning (6-12),2025-08-17
+INC00597,19.037612,73.020857,Nerul Balaji Mandir Area,Molestation,3,Afternoon (12-17),2024-03-12
+INC00598,19.028542,73.007605,Nerul Sector 28,Domestic Violence (reported outdoors),3,Night (21-6),2024-06-05
+INC00599,19.037462,73.013669,Nerul West,Stalking,2,Evening (17-21),2024-08-14
+INC00600,19.043213,73.025876,DY Patil Stadium Area,Assault,5,Evening (17-21),2025-01-02
+INC00601,19.011396,73.014371,Seawoods Grand Central,Domestic Violence (reported outdoors),2,Night (21-6),2024-05-23
+INC00602,19.027571,73.018868,Nerul Sector 3,Eve Teasing / Harassment,1,Night (21-6),2025-06-03
+INC00603,19.036401,73.020331,Nerul Railway Station Area,Domestic Violence (reported outdoors),3,Night (21-6),2025-07-18
+INC00604,19.012848,73.02299,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,2,Evening (17-21),2024-08-16
+INC00605,19.008571,73.017509,Seawoods Grand Central,Eve Teasing / Harassment,3,Evening (17-21),2024-01-11
+INC00606,19.020784,73.025452,Nerul Sector 40,Domestic Violence (reported outdoors),3,Night (21-6),2024-05-23
+INC00607,19.027274,73.030531,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),3,Night (21-6),2025-05-10
+INC00608,19.031323,73.012092,Nerul West,Molestation,3,Afternoon (12-17),2024-08-27
+INC00609,19.041149,73.015843,Nerul Sector 19A,Assault,5,Evening (17-21),2025-04-10
+INC00610,19.036119,73.016888,Nerul Sector 19A,Eve Teasing / Harassment,2,Night (21-6),2024-09-26
+INC00611,19.030561,73.016013,Nerul Sector 3,Robbery,4,Evening (17-21),2024-03-20
+INC00612,19.035013,73.026781,Nerul Sector 8,Molestation,5,Evening (17-21),2024-12-19
+INC00613,19.036341,73.025097,Nerul Balaji Mandir Area,Chain Snatching,3,Evening (17-21),2024-08-23
+INC00614,19.040616,73.009246,Nerul Sector 20,Stalking,3,Afternoon (12-17),2025-09-08
+INC00615,19.046789,73.013317,Nerul Sector 21,Assault,3,Evening (17-21),2025-05-05
+INC00616,19.031686,73.01929,Nerul Balaji Mandir Area,Robbery,3,Afternoon (12-17),2024-05-10
+INC00617,19.025078,73.021101,Nerul Sector 23,Domestic Violence (reported outdoors),3,Morning (6-12),2024-09-21
+INC00618,19.028133,73.020244,Nerul Sector 23,Domestic Violence (reported outdoors),2,Night (21-6),2025-11-08
+INC00619,19.015078,73.015233,Seawoods Grand Central,Domestic Violence (reported outdoors),4,Night (21-6),2024-06-23
+INC00620,19.020643,73.023807,Nerul Sector 40,Domestic Violence (reported outdoors),3,Evening (17-21),2025-06-07
+INC00621,19.009842,73.020485,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,1,Afternoon (12-17),2025-01-29
+INC00622,19.029869,73.022119,Nerul Sector 22,Kidnapping Attempt,5,Night (21-6),2025-09-12
+INC00623,19.042919,73.017213,Nerul Sector 21,Domestic Violence (reported outdoors),2,Night (21-6),2025-06-28
+INC00624,19.039019,73.019746,Nerul Sector 8,Stalking,3,Night (21-6),2025-11-25
+INC00625,19.045176,73.025963,DY Patil Stadium Area,Chain Snatching,4,Afternoon (12-17),2025-05-08
+INC00626,19.033804,73.030437,Nerul East,Domestic Violence (reported outdoors),2,Evening (17-21),2024-09-17
+INC00627,19.036127,73.025281,Nerul Balaji Mandir Area,Eve Teasing / Harassment,2,Evening (17-21),2025-07-10
+INC00628,19.043062,73.023044,DY Patil Stadium Area,Chain Snatching,2,Evening (17-21),2025-01-19
+INC00629,19.031502,73.006527,Nerul Sector 28,Assault,3,Afternoon (12-17),2025-10-29
+INC00630,19.01059,73.019289,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),4,Evening (17-21),2025-11-27
+INC00631,19.03704,73.027306,Nerul East,Kidnapping Attempt,5,Afternoon (12-17),2025-07-26
+INC00632,19.02987,73.020908,Nerul Sector 3,Domestic Violence (reported outdoors),3,Night (21-6),2025-02-11
+INC00633,19.03584,73.025774,Nerul Sector 22,Molestation,5,Night (21-6),2024-06-14
+INC00634,19.043216,73.013204,Nerul Sector 21,Assault,3,Afternoon (12-17),2025-10-13
+INC00635,19.036335,73.022286,Nerul Railway Station Area,Suspicious Activity / Loitering,2,Morning (6-12),2024-09-26
+INC00636,19.016967,73.023872,Nerul Sector 40,Robbery,5,Evening (17-21),2025-06-17
+INC00637,19.013193,73.01828,Seawoods Grand Central,Stalking,4,Evening (17-21),2024-07-25
+INC00638,19.035288,73.019269,Nerul Sector 8,Domestic Violence (reported outdoors),4,Evening (17-21),2025-11-21
+INC00639,19.038678,73.01694,Nerul Sector 19A,Stalking,2,Night (21-6),2025-02-13
+INC00640,19.036357,73.009244,Nerul West,Molestation,3,Night (21-6),2024-03-11
+INC00641,19.040897,73.012809,Nerul Sector 20,Kidnapping Attempt,5,Evening (17-21),2024-10-10
+INC00642,19.018851,73.020556,Nerul Sector 40,Robbery,3,Afternoon (12-17),2025-02-20
+INC00643,19.033852,73.019579,Nerul Sector 8,Theft,3,Night (21-6),2025-06-09
+INC00644,19.015509,73.021505,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),4,Night (21-6),2025-01-21
+INC00645,19.03616,73.02406,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,2,Night (21-6),2024-01-29
+INC00646,19.03093,73.01854,Nerul Balaji Mandir Area,Molestation,4,Night (21-6),2025-02-26
+INC00647,19.035132,73.006078,Nerul West,Theft,2,Afternoon (12-17),2025-02-12
+INC00648,19.033108,73.019951,Nerul Lake Garden,Suspicious Activity / Loitering,1,Evening (17-21),2025-08-10
+INC00649,19.009962,73.020969,Nerul Sector 50 (Seawoods),Molestation,5,Night (21-6),2024-08-28
+INC00650,19.020982,73.020654,Nerul Sector 40,Molestation,4,Night (21-6),2024-12-30
+INC00651,19.035232,73.021459,Nerul Sector 22,Eve Teasing / Harassment,3,Evening (17-21),2025-07-08
+INC00652,19.042584,73.01467,Nerul Sector 19A,Assault,5,Night (21-6),2025-08-11
+INC00653,19.012426,73.022875,Nerul Sector 50 (Seawoods),Kidnapping Attempt,5,Evening (17-21),2025-08-13
+INC00654,19.029433,73.026894,Nerul Sector 22,Suspicious Activity / Loitering,1,Evening (17-21),2025-02-07
+INC00655,19.027658,73.017963,Nerul Sector 23,Kidnapping Attempt,5,Evening (17-21),2024-01-09
+INC00656,19.035293,73.018735,Nerul Railway Station Area,Eve Teasing / Harassment,2,Evening (17-21),2024-09-22
+INC00657,19.028389,73.018897,Nerul Sector 23,Suspicious Activity / Loitering,1,Evening (17-21),2025-05-25
+INC00658,19.042684,73.028606,DY Patil Stadium Area,Assault,4,Night (21-6),2024-10-13
+INC00659,19.027439,73.027049,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),3,Night (21-6),2024-10-03
+INC00660,19.018443,73.02585,Nerul Sector 40,Molestation,4,Night (21-6),2024-06-02
+INC00661,19.036445,73.019413,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,1,Night (21-6),2025-10-07
+INC00662,19.037272,73.021526,Nerul Sector 8,Suspicious Activity / Loitering,2,Afternoon (12-17),2025-08-04
+INC00663,19.038987,73.017224,Nerul Sector 19A,Chain Snatching,3,Night (21-6),2025-05-02
+INC00664,19.045099,73.012677,Nerul Sector 21,Assault,4,Evening (17-21),2024-09-20
+INC00665,19.031159,73.00697,Nerul West,Domestic Violence (reported outdoors),3,Evening (17-21),2025-10-27
+INC00666,19.027396,73.019242,Nerul Sector 3,Assault,4,Night (21-6),2025-05-14
+INC00667,19.033117,73.029049,"Juhu Nagar, Nerul",Theft,3,Evening (17-21),2024-05-28
+INC00668,19.029125,73.024429,Nerul Sector 23,Robbery,5,Night (21-6),2024-03-14
+INC00669,19.037796,73.008826,Nerul Sector 20,Assault,4,Night (21-6),2025-09-11
+INC00670,19.03317,73.027559,Nerul East,Assault,5,Evening (17-21),2024-07-07
+INC00671,19.0309,73.017577,Nerul Railway Station Area,Theft,1,Afternoon (12-17),2025-02-10
+INC00672,19.042264,73.017494,Nerul Sector 21,Suspicious Activity / Loitering,1,Morning (6-12),2025-02-10
+INC00673,19.03912,73.019666,Nerul Sector 8,Theft,3,Morning (6-12),2025-02-03
+INC00674,19.009335,73.019401,Seawoods Grand Central,Suspicious Activity / Loitering,1,Morning (6-12),2024-06-23
+INC00675,19.030181,73.018555,Nerul Railway Station Area,Assault,5,Evening (17-21),2025-07-07
+INC00676,19.012888,73.016081,Nerul Sector 50 (Seawoods),Kidnapping Attempt,5,Evening (17-21),2025-04-12
+INC00677,19.045188,73.028116,DY Patil Stadium Area,Theft,2,Evening (17-21),2024-08-20
+INC00678,19.040035,73.009926,Nerul Sector 20,Theft,2,Evening (17-21),2024-01-01
+INC00679,19.039523,73.025784,Nerul Sector 8,Assault,5,Evening (17-21),2024-01-09
+INC00680,19.037576,73.021817,Nerul Balaji Mandir Area,Chain Snatching,4,Night (21-6),2025-09-03
+INC00681,19.020374,73.023386,Nerul Sector 40,Molestation,5,Night (21-6),2025-03-23
+INC00682,19.032999,73.02972,Nerul East,Robbery,5,Afternoon (12-17),2024-03-22
+INC00683,19.046003,73.027133,DY Patil Stadium Area,Domestic Violence (reported outdoors),3,Afternoon (12-17),2025-06-28
+INC00684,19.011803,73.021828,Nerul Sector 50 (Seawoods),Stalking,4,Afternoon (12-17),2025-10-14
+INC00685,19.030942,73.028177,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),4,Afternoon (12-17),2024-01-20
+INC00686,19.029397,73.02478,Nerul Sector 22,Stalking,2,Afternoon (12-17),2024-05-08
+INC00687,19.031817,73.027862,"Juhu Nagar, Nerul",Stalking,2,Evening (17-21),2024-12-16
+INC00688,19.043493,73.029396,DY Patil Stadium Area,Assault,5,Night (21-6),2024-02-02
+INC00689,19.033142,73.018505,Nerul Lake Garden,Stalking,2,Afternoon (12-17),2025-02-05
+INC00690,19.040846,73.008453,Nerul Sector 20,Theft,3,Night (21-6),2024-05-04
+INC00691,19.017078,73.0268,Nerul Sector 40,Molestation,3,Afternoon (12-17),2024-04-06
+INC00692,19.038328,73.020668,Nerul Sector 8,Robbery,5,Night (21-6),2024-06-11
+INC00693,19.041758,73.016097,Nerul Sector 19A,Eve Teasing / Harassment,2,Evening (17-21),2024-11-01
+INC00694,19.028883,73.004417,Nerul Sector 28,Molestation,3,Afternoon (12-17),2025-03-20
+INC00695,19.032621,73.018855,Nerul Lake Garden,Domestic Violence (reported outdoors),2,Evening (17-21),2024-09-05
+INC00696,19.037651,73.020349,Nerul Railway Station Area,Suspicious Activity / Loitering,1,Evening (17-21),2024-04-01
+INC00697,19.015262,73.019731,Nerul Sector 40,Domestic Violence (reported outdoors),3,Night (21-6),2025-10-02
+INC00698,19.036278,73.016857,Nerul Sector 19A,Kidnapping Attempt,4,Morning (6-12),2024-08-26
+INC00699,19.040353,73.018808,Nerul Lake Garden,Assault,5,Night (21-6),2024-01-22
+INC00700,19.033865,73.025078,Nerul East,Chain Snatching,4,Night (21-6),2025-07-26
+INC00701,19.011842,73.017421,Seawoods Grand Central,Domestic Violence (reported outdoors),3,Evening (17-21),2024-11-27
+INC00702,19.028203,73.032651,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Morning (6-12),2024-06-07
+INC00703,19.028365,73.028107,"Juhu Nagar, Nerul",Assault,5,Morning (6-12),2025-10-15
+INC00704,19.036032,73.020484,Nerul Sector 8,Chain Snatching,4,Night (21-6),2024-09-01
+INC00705,19.038268,73.017766,Nerul Lake Garden,Kidnapping Attempt,5,Afternoon (12-17),2025-11-30
+INC00706,19.036126,73.019233,Nerul Balaji Mandir Area,Theft,2,Evening (17-21),2024-11-25
+INC00707,19.04227,73.015271,Nerul Sector 21,Chain Snatching,3,Afternoon (12-17),2024-02-02
+INC00708,19.026856,73.005533,Nerul Sector 28,Chain Snatching,4,Night (21-6),2025-06-22
+INC00709,19.008893,73.016766,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,2,Night (21-6),2024-08-01
+INC00710,19.037427,73.024657,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,1,Evening (17-21),2025-03-01
+INC00711,19.037354,73.006466,Nerul West,Domestic Violence (reported outdoors),3,Evening (17-21),2024-03-13
+INC00712,19.008123,73.015227,Seawoods Grand Central,Kidnapping Attempt,4,Morning (6-12),2024-08-24
+INC00713,19.029083,73.014545,Nerul Sector 3,Molestation,4,Evening (17-21),2025-07-25
+INC00714,19.046969,73.02913,DY Patil Stadium Area,Domestic Violence (reported outdoors),3,Night (21-6),2025-12-20
+INC00715,19.048063,73.024334,DY Patil Stadium Area,Stalking,4,Evening (17-21),2025-11-04
+INC00716,19.028271,73.021799,Nerul Sector 23,Assault,4,Evening (17-21),2024-11-28
+INC00717,19.034299,73.011066,Nerul West,Assault,4,Evening (17-21),2024-08-07
+INC00718,19.037126,73.031409,Nerul East,Theft,2,Night (21-6),2025-04-03
+INC00719,19.031002,73.024277,Nerul East,Theft,1,Evening (17-21),2024-11-05
+INC00720,19.032303,73.017475,Nerul Railway Station Area,Assault,3,Night (21-6),2025-12-07
+INC00721,19.015853,73.01909,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),4,Morning (6-12),2025-04-16
+INC00722,19.032249,73.00812,Nerul West,Domestic Violence (reported outdoors),3,Afternoon (12-17),2024-11-03
+INC00723,19.041064,73.011553,Nerul Sector 20,Molestation,3,Night (21-6),2025-05-09
+INC00724,19.027906,73.024192,Nerul Sector 23,Domestic Violence (reported outdoors),2,Evening (17-21),2024-11-03
+INC00725,19.041646,73.01631,Nerul Sector 19A,Eve Teasing / Harassment,1,Night (21-6),2024-12-08
+INC00726,19.038038,73.009474,Nerul West,Eve Teasing / Harassment,2,Night (21-6),2025-09-08
+INC00727,19.034971,73.020758,Nerul Railway Station Area,Chain Snatching,3,Evening (17-21),2024-11-22
+INC00728,19.030519,73.015615,Nerul Sector 3,Molestation,4,Morning (6-12),2025-02-06
+INC00729,19.032023,73.030602,"Juhu Nagar, Nerul",Eve Teasing / Harassment,2,Evening (17-21),2025-02-07
+INC00730,19.030058,73.02116,Nerul Sector 22,Domestic Violence (reported outdoors),2,Evening (17-21),2024-09-25
+INC00731,19.039688,73.010476,Nerul Sector 20,Stalking,3,Evening (17-21),2024-07-21
+INC00732,19.033163,73.022571,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Afternoon (12-17),2024-09-29
+INC00733,19.043587,73.030393,DY Patil Stadium Area,Eve Teasing / Harassment,1,Night (21-6),2025-03-09
+INC00734,19.033786,73.008566,Nerul West,Domestic Violence (reported outdoors),2,Night (21-6),2024-06-22
+INC00735,19.03593,73.013921,Nerul West,Suspicious Activity / Loitering,1,Evening (17-21),2024-08-27
+INC00736,19.031483,73.005248,Nerul Sector 28,Eve Teasing / Harassment,1,Night (21-6),2024-09-05
+INC00737,19.03595,73.027061,Nerul Sector 22,Chain Snatching,3,Night (21-6),2024-04-23
+INC00738,19.0111,73.013682,Seawoods Grand Central,Molestation,4,Afternoon (12-17),2025-06-19
+INC00739,19.01289,73.019984,Nerul Sector 50 (Seawoods),Stalking,3,Evening (17-21),2025-11-10
+INC00740,19.033348,73.020363,Nerul Sector 8,Theft,3,Night (21-6),2025-09-24
+INC00741,19.008925,73.020238,Nerul Sector 50 (Seawoods),Chain Snatching,3,Evening (17-21),2024-10-04
+INC00742,19.037914,73.006153,Nerul West,Robbery,4,Night (21-6),2025-06-04
+INC00743,19.048731,73.013877,Nerul Sector 21,Domestic Violence (reported outdoors),2,Afternoon (12-17),2025-05-27
+INC00744,19.030486,73.0317,"Juhu Nagar, Nerul",Chain Snatching,3,Night (21-6),2024-11-08
+INC00745,19.036419,73.018455,Nerul Lake Garden,Chain Snatching,3,Night (21-6),2024-12-29
+INC00746,19.00939,73.021326,Seawoods Grand Central,Kidnapping Attempt,5,Night (21-6),2025-10-02
+INC00747,19.015529,73.022123,Nerul Sector 50 (Seawoods),Chain Snatching,4,Afternoon (12-17),2024-12-15
+INC00748,19.036255,73.024702,Nerul East,Robbery,4,Evening (17-21),2025-08-09
+INC00749,19.032412,73.022999,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2024-05-14
+INC00750,19.03122,73.008648,Nerul Sector 28,Molestation,4,Evening (17-21),2025-12-23
+INC00751,19.040277,73.022441,Nerul Sector 8,Stalking,4,Evening (17-21),2025-07-24
+INC00752,19.033589,73.013947,Nerul Sector 3,Assault,4,Night (21-6),2024-11-22
+INC00753,19.04869,73.025427,DY Patil Stadium Area,Theft,2,Night (21-6),2024-04-19
+INC00754,19.030478,73.0266,Nerul Sector 22,Domestic Violence (reported outdoors),3,Evening (17-21),2025-09-19
+INC00755,19.018771,73.020847,Nerul Sector 40,Chain Snatching,3,Morning (6-12),2025-05-03
+INC00756,19.033019,73.025338,Nerul Sector 22,Assault,4,Night (21-6),2025-05-18
+INC00757,19.0311,73.019546,Nerul Balaji Mandir Area,Chain Snatching,4,Night (21-6),2024-01-16
+INC00758,19.016102,73.01678,Nerul Sector 50 (Seawoods),Molestation,5,Morning (6-12),2025-03-25
+INC00759,19.035503,73.024934,Nerul Balaji Mandir Area,Molestation,5,Evening (17-21),2024-02-12
+INC00760,19.036762,73.027153,Nerul East,Domestic Violence (reported outdoors),2,Evening (17-21),2025-04-07
+INC00761,19.032616,73.026339,"Juhu Nagar, Nerul",Molestation,5,Night (21-6),2024-02-10
+INC00762,19.029099,73.019121,Nerul Sector 3,Chain Snatching,3,Afternoon (12-17),2025-02-11
+INC00763,19.013689,73.015787,Seawoods Grand Central,Stalking,4,Afternoon (12-17),2024-02-25
+INC00764,19.040229,73.022709,Nerul Sector 8,Suspicious Activity / Loitering,1,Night (21-6),2024-04-25
+INC00765,19.03023,73.024503,Nerul Sector 23,Kidnapping Attempt,5,Evening (17-21),2024-11-27
+INC00766,19.026199,73.029629,"Juhu Nagar, Nerul",Molestation,5,Morning (6-12),2024-11-27
+INC00767,19.029747,73.017988,Nerul Sector 23,Eve Teasing / Harassment,3,Evening (17-21),2024-03-28
+INC00768,19.038658,73.024815,Nerul Sector 8,Kidnapping Attempt,5,Evening (17-21),2025-01-24
+INC00769,19.041946,73.018998,Nerul Sector 19A,Domestic Violence (reported outdoors),3,Afternoon (12-17),2024-05-28
+INC00770,19.030153,73.01741,Nerul Sector 23,Theft,2,Night (21-6),2025-04-01
+INC00771,19.012512,73.01444,Seawoods Grand Central,Stalking,3,Morning (6-12),2024-09-16
+INC00772,19.033569,73.022543,Nerul Railway Station Area,Kidnapping Attempt,4,Evening (17-21),2025-05-20
+INC00773,19.015735,73.024276,Nerul Sector 40,Suspicious Activity / Loitering,2,Evening (17-21),2025-09-07
+INC00774,19.031858,73.020079,Nerul Railway Station Area,Domestic Violence (reported outdoors),3,Morning (6-12),2024-05-31
+INC00775,19.041026,73.011994,Nerul Sector 19A,Chain Snatching,3,Evening (17-21),2024-03-30
+INC00776,19.036671,73.01965,Nerul Sector 19A,Stalking,3,Evening (17-21),2025-12-09
+INC00777,19.027419,73.016643,Nerul Sector 3,Domestic Violence (reported outdoors),3,Night (21-6),2024-04-05
+INC00778,19.010083,73.02068,Seawoods Grand Central,Eve Teasing / Harassment,3,Night (21-6),2024-03-07
+INC00779,19.011267,73.014476,Seawoods Grand Central,Theft,2,Evening (17-21),2025-06-21
+INC00780,19.031567,73.008896,Nerul Sector 28,Eve Teasing / Harassment,1,Evening (17-21),2025-12-06
+INC00781,19.010916,73.020282,Seawoods Grand Central,Theft,2,Night (21-6),2025-09-21
+INC00782,19.034158,73.023055,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,1,Night (21-6),2024-08-26
+INC00783,19.015334,73.013513,Seawoods Grand Central,Chain Snatching,4,Evening (17-21),2024-04-30
+INC00784,19.032397,73.011992,Nerul Sector 28,Robbery,3,Evening (17-21),2025-07-27
+INC00785,19.02609,73.005609,Nerul Sector 28,Theft,2,Night (21-6),2024-11-11
+INC00786,19.011554,73.016091,Seawoods Grand Central,Chain Snatching,2,Night (21-6),2024-12-15
+INC00787,19.036795,73.028928,Nerul East,Chain Snatching,3,Afternoon (12-17),2024-12-12
+INC00788,19.037329,73.024378,Nerul Balaji Mandir Area,Stalking,4,Afternoon (12-17),2025-04-16
+INC00789,19.033167,73.0167,Nerul Sector 3,Robbery,3,Night (21-6),2024-11-02
+INC00790,19.036941,73.01265,Nerul Lake Garden,Domestic Violence (reported outdoors),3,Night (21-6),2024-12-28
+INC00791,19.044257,73.009244,Nerul Sector 20,Chain Snatching,3,Night (21-6),2025-10-03
+INC00792,19.032739,73.017568,Nerul Sector 3,Robbery,4,Evening (17-21),2024-11-11
+INC00793,19.038179,73.014672,Nerul Lake Garden,Eve Teasing / Harassment,3,Night (21-6),2025-01-15
+INC00794,19.032636,73.028421,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Afternoon (12-17),2025-01-18
+INC00795,19.042022,73.019007,Nerul Sector 19A,Suspicious Activity / Loitering,1,Night (21-6),2025-05-27
+INC00796,19.030522,73.027889,Nerul Sector 22,Kidnapping Attempt,5,Night (21-6),2024-05-26
+INC00797,19.048077,73.017504,Nerul Sector 21,Stalking,3,Night (21-6),2025-04-15
+INC00798,19.036709,73.028179,Nerul East,Chain Snatching,3,Night (21-6),2025-12-04
+INC00799,19.039166,73.014113,Nerul Sector 20,Eve Teasing / Harassment,2,Morning (6-12),2024-11-15
+INC00800,19.028567,73.00554,Nerul Sector 28,Theft,2,Night (21-6),2025-11-18
+INC00801,19.043681,73.01126,Nerul Sector 21,Eve Teasing / Harassment,1,Night (21-6),2025-07-27
+INC00802,19.033819,73.02334,Nerul Sector 8,Kidnapping Attempt,5,Afternoon (12-17),2025-12-22
+INC00803,19.012093,73.01487,Seawoods Grand Central,Theft,2,Evening (17-21),2024-02-21
+INC00804,19.029232,73.027726,Nerul Sector 22,Chain Snatching,2,Evening (17-21),2024-03-29
+INC00805,19.044135,73.028637,DY Patil Stadium Area,Domestic Violence (reported outdoors),4,Evening (17-21),2024-11-15
+INC00806,19.03904,73.018203,Nerul Lake Garden,Kidnapping Attempt,4,Night (21-6),2025-04-21
+INC00807,19.029743,73.026919,Nerul Sector 22,Suspicious Activity / Loitering,1,Evening (17-21),2025-12-01
+INC00808,19.029764,73.03358,"Juhu Nagar, Nerul",Stalking,3,Night (21-6),2025-02-05
+INC00809,19.029597,73.022321,Nerul Sector 23,Assault,5,Evening (17-21),2024-03-07
+INC00810,19.030903,73.021829,Nerul Balaji Mandir Area,Stalking,3,Night (21-6),2025-09-10
+INC00811,19.033064,73.023745,Nerul Sector 22,Eve Teasing / Harassment,2,Evening (17-21),2024-03-13
+INC00812,19.011762,73.016707,Seawoods Grand Central,Robbery,4,Evening (17-21),2025-07-15
+INC00813,19.031791,73.020071,Nerul Sector 23,Assault,4,Night (21-6),2025-08-28
+INC00814,19.047275,73.026483,DY Patil Stadium Area,Assault,4,Afternoon (12-17),2025-11-16
+INC00815,19.042415,73.012695,Nerul Sector 20,Suspicious Activity / Loitering,1,Evening (17-21),2025-04-19
+INC00816,19.036941,73.019076,Nerul Lake Garden,Stalking,3,Night (21-6),2024-03-12
+INC00817,19.046984,73.014771,Nerul Sector 21,Robbery,4,Evening (17-21),2025-11-07
+INC00818,19.036524,73.018236,Nerul Sector 19A,Domestic Violence (reported outdoors),2,Night (21-6),2025-11-07
+INC00819,19.032624,73.022832,Nerul Sector 22,Domestic Violence (reported outdoors),4,Afternoon (12-17),2025-11-28
+INC00820,19.034898,73.018855,Nerul Lake Garden,Theft,3,Night (21-6),2024-12-18
+INC00821,19.041162,73.011892,Nerul Sector 20,Kidnapping Attempt,5,Night (21-6),2024-10-28
+INC00822,19.038754,73.016091,Nerul Sector 19A,Chain Snatching,2,Night (21-6),2025-01-02
+INC00823,19.04839,73.016925,Nerul Sector 21,Molestation,5,Night (21-6),2025-02-07
+INC00824,19.038194,73.015748,Nerul Lake Garden,Robbery,4,Night (21-6),2025-05-01
+INC00825,19.030506,73.023577,Nerul Sector 22,Assault,5,Afternoon (12-17),2025-11-17
+INC00826,19.030074,73.021074,Nerul Sector 22,Chain Snatching,3,Night (21-6),2025-05-13
+INC00827,19.0488,73.024086,DY Patil Stadium Area,Stalking,4,Night (21-6),2025-12-13
+INC00828,19.045986,73.026635,DY Patil Stadium Area,Robbery,5,Evening (17-21),2024-08-19
+INC00829,19.027398,73.017059,Nerul Sector 23,Suspicious Activity / Loitering,1,Night (21-6),2024-10-02
+INC00830,19.048413,73.027611,DY Patil Stadium Area,Chain Snatching,2,Evening (17-21),2025-12-22
+INC00831,19.031905,73.009852,Nerul West,Eve Teasing / Harassment,2,Night (21-6),2025-06-23
+INC00832,19.012219,73.015626,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),3,Afternoon (12-17),2025-10-07
+INC00833,19.041973,73.011314,Nerul Sector 20,Domestic Violence (reported outdoors),3,Evening (17-21),2024-12-17
+INC00834,19.032228,73.016751,Nerul Sector 3,Kidnapping Attempt,5,Evening (17-21),2024-12-05
+INC00835,19.043823,73.030822,DY Patil Stadium Area,Theft,2,Afternoon (12-17),2025-12-12
+INC00836,19.013316,73.01801,Seawoods Grand Central,Chain Snatching,4,Evening (17-21),2025-08-09
+INC00837,19.041051,73.014034,Nerul Sector 19A,Domestic Violence (reported outdoors),2,Afternoon (12-17),2024-03-25
+INC00838,19.033045,73.027312,Nerul Sector 22,Theft,2,Morning (6-12),2024-10-14
+INC00839,19.015363,73.015114,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,3,Night (21-6),2024-06-03
+INC00840,19.028958,73.027403,"Juhu Nagar, Nerul",Molestation,5,Afternoon (12-17),2025-06-24
+INC00841,19.038543,73.012375,Nerul Sector 19A,Stalking,3,Night (21-6),2025-02-26
+INC00842,19.032904,73.027521,Nerul East,Stalking,3,Evening (17-21),2024-12-19
+INC00843,19.040938,73.017744,Nerul Sector 19A,Eve Teasing / Harassment,1,Afternoon (12-17),2025-02-12
+INC00844,19.032411,73.023969,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Evening (17-21),2025-12-23
+INC00845,19.034797,73.025161,Nerul East,Robbery,3,Afternoon (12-17),2025-04-04
+INC00846,19.036428,73.031694,Nerul East,Chain Snatching,2,Night (21-6),2025-10-14
+INC00847,19.038649,73.009454,Nerul West,Theft,2,Afternoon (12-17),2024-04-10
+INC00848,19.013735,73.018129,Nerul Sector 50 (Seawoods),Molestation,5,Evening (17-21),2025-11-24
+INC00849,19.026506,73.017085,Nerul Sector 23,Chain Snatching,2,Morning (6-12),2024-04-10
+INC00850,19.033831,73.022568,Nerul Sector 8,Molestation,5,Afternoon (12-17),2024-02-04
+INC00851,19.034855,73.016155,Nerul Railway Station Area,Domestic Violence (reported outdoors),3,Night (21-6),2025-10-15
+INC00852,19.047165,73.01096,Nerul Sector 21,Domestic Violence (reported outdoors),3,Evening (17-21),2025-10-25
+INC00853,19.031168,73.022565,Nerul Sector 23,Theft,2,Evening (17-21),2024-03-18
+INC00854,19.033382,73.028211,"Juhu Nagar, Nerul",Robbery,4,Afternoon (12-17),2024-03-16
+INC00855,19.014717,73.018062,Nerul Sector 50 (Seawoods),Assault,4,Afternoon (12-17),2024-09-28
+INC00856,19.027525,73.020934,Nerul Sector 23,Molestation,5,Afternoon (12-17),2025-05-18
+INC00857,19.042651,73.01615,Nerul Sector 21,Molestation,3,Night (21-6),2024-09-22
+INC00858,19.041779,73.010563,Nerul Sector 21,Theft,3,Morning (6-12),2025-05-24
+INC00859,19.034223,73.020507,Nerul Sector 22,Chain Snatching,4,Afternoon (12-17),2025-12-17
+INC00860,19.039737,73.017097,Nerul Lake Garden,Kidnapping Attempt,5,Evening (17-21),2025-02-17
+INC00861,19.040821,73.007026,Nerul Sector 20,Suspicious Activity / Loitering,1,Evening (17-21),2025-01-02
+INC00862,19.037955,73.015705,Nerul Lake Garden,Eve Teasing / Harassment,2,Evening (17-21),2024-12-14
+INC00863,19.043229,73.013084,Nerul Sector 20,Theft,2,Afternoon (12-17),2024-02-10
+INC00864,19.036286,73.026391,Nerul East,Robbery,3,Evening (17-21),2025-01-02
+INC00865,19.030679,73.023062,Nerul Balaji Mandir Area,Molestation,4,Morning (6-12),2024-01-26
+INC00866,19.017914,73.019504,Nerul Sector 40,Kidnapping Attempt,5,Evening (17-21),2025-04-05
+INC00867,19.030196,73.016148,Nerul Railway Station Area,Chain Snatching,4,Morning (6-12),2025-10-31
+INC00868,19.036667,73.024425,Nerul Sector 8,Kidnapping Attempt,5,Night (21-6),2024-08-26
+INC00869,19.036795,73.008133,Nerul Sector 20,Chain Snatching,4,Night (21-6),2025-09-25
+INC00870,19.037741,73.01689,Nerul Sector 19A,Chain Snatching,3,Evening (17-21),2024-11-10
+INC00871,19.045149,73.011366,Nerul Sector 21,Domestic Violence (reported outdoors),2,Night (21-6),2024-04-18
+INC00872,19.045477,73.016393,Nerul Sector 21,Molestation,3,Night (21-6),2025-03-12
+INC00873,19.038992,73.020358,Nerul Lake Garden,Robbery,4,Morning (6-12),2025-12-01
+INC00874,19.027099,73.019691,Nerul Sector 3,Molestation,3,Evening (17-21),2024-12-09
+INC00875,19.037466,73.00813,Nerul Sector 20,Robbery,4,Night (21-6),2025-07-20
+INC00876,19.027509,73.024405,Nerul Sector 23,Chain Snatching,3,Morning (6-12),2025-10-09
+INC00877,19.037221,73.024125,Nerul East,Suspicious Activity / Loitering,1,Morning (6-12),2024-07-02
+INC00878,19.042154,73.01175,Nerul Sector 20,Theft,3,Night (21-6),2025-05-02
+INC00879,19.030649,73.025619,Nerul Sector 22,Kidnapping Attempt,5,Evening (17-21),2024-06-27
+INC00880,19.04057,73.017438,Nerul Sector 19A,Domestic Violence (reported outdoors),2,Evening (17-21),2024-11-04
+INC00881,19.03435,73.010462,Nerul West,Molestation,3,Night (21-6),2024-04-07
+INC00882,19.037902,73.013894,Nerul West,Kidnapping Attempt,5,Evening (17-21),2025-10-03
+INC00883,19.028211,73.00555,Nerul Sector 28,Stalking,4,Evening (17-21),2024-06-12
+INC00884,19.036232,73.014614,Nerul Sector 19A,Molestation,5,Afternoon (12-17),2025-09-23
+INC00885,19.026347,73.031923,"Juhu Nagar, Nerul",Kidnapping Attempt,5,Afternoon (12-17),2024-01-30
+INC00886,19.034119,73.018567,Nerul Balaji Mandir Area,Molestation,5,Evening (17-21),2024-11-29
+INC00887,19.04259,73.028415,DY Patil Stadium Area,Assault,4,Night (21-6),2024-11-29
+INC00888,19.014785,73.024902,Nerul Sector 40,Molestation,5,Night (21-6),2024-03-16
+INC00889,19.034681,73.018435,Nerul Balaji Mandir Area,Robbery,4,Afternoon (12-17),2025-09-16
+INC00890,19.027424,73.028988,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Evening (17-21),2024-10-03
+INC00891,19.028687,73.004257,Nerul Sector 28,Domestic Violence (reported outdoors),2,Afternoon (12-17),2024-04-23
+INC00892,19.029669,73.02737,"Juhu Nagar, Nerul",Assault,4,Night (21-6),2025-09-10
+INC00893,19.030316,73.022104,Nerul Sector 23,Domestic Violence (reported outdoors),3,Evening (17-21),2025-07-20
+INC00894,19.014692,73.025856,Nerul Sector 40,Suspicious Activity / Loitering,1,Evening (17-21),2025-04-18
+INC00895,19.008616,73.018425,Nerul Sector 50 (Seawoods),Molestation,5,Evening (17-21),2025-08-16
+INC00896,19.021135,73.023734,Nerul Sector 40,Stalking,2,Evening (17-21),2024-02-15
+INC00897,19.04373,73.017568,Nerul Sector 19A,Kidnapping Attempt,4,Evening (17-21),2025-02-07
+INC00898,19.036478,73.023573,Nerul Balaji Mandir Area,Eve Teasing / Harassment,3,Evening (17-21),2024-03-26
+INC00899,19.032025,73.018545,Nerul Sector 3,Robbery,4,Morning (6-12),2024-10-29
+INC00900,19.019181,73.019726,Nerul Sector 40,Suspicious Activity / Loitering,1,Afternoon (12-17),2025-04-15
+INC00901,19.037711,73.01941,Nerul Railway Station Area,Stalking,4,Afternoon (12-17),2025-01-14
+INC00902,19.031631,73.026011,"Juhu Nagar, Nerul",Eve Teasing / Harassment,3,Night (21-6),2024-12-06
+INC00903,19.033262,73.022407,Nerul Sector 8,Theft,3,Night (21-6),2024-03-23
+INC00904,19.038386,73.012938,Nerul Lake Garden,Assault,3,Morning (6-12),2025-01-09
+INC00905,19.030953,73.028925,"Juhu Nagar, Nerul",Stalking,2,Evening (17-21),2024-07-28
+INC00906,19.03685,73.022409,Nerul Sector 22,Eve Teasing / Harassment,3,Night (21-6),2025-08-17
+INC00907,19.032025,73.010087,Nerul Sector 28,Assault,4,Night (21-6),2025-05-30
+INC00908,19.043217,73.023507,DY Patil Stadium Area,Assault,5,Evening (17-21),2025-06-23
+INC00909,19.045261,73.014255,Nerul Sector 21,Kidnapping Attempt,5,Evening (17-21),2025-01-11
+INC00910,19.038007,73.014072,Nerul Sector 20,Eve Teasing / Harassment,1,Evening (17-21),2024-07-02
+INC00911,19.015166,73.014116,Seawoods Grand Central,Stalking,3,Morning (6-12),2024-05-31
+INC00912,19.031204,73.019634,Nerul Balaji Mandir Area,Chain Snatching,3,Evening (17-21),2025-11-29
+INC00913,19.033454,73.016791,Nerul Sector 3,Robbery,5,Night (21-6),2024-01-22
+INC00914,19.009012,73.013676,Seawoods Grand Central,Molestation,4,Evening (17-21),2024-12-17
+INC00915,19.036389,73.017827,Nerul Lake Garden,Kidnapping Attempt,5,Evening (17-21),2025-08-03
+INC00916,19.036186,73.022952,Nerul Sector 22,Theft,2,Evening (17-21),2024-10-22
+INC00917,19.036987,73.013975,Nerul Sector 19A,Stalking,3,Night (21-6),2024-10-19
+INC00918,19.031786,73.023715,Nerul Sector 23,Stalking,3,Afternoon (12-17),2024-02-12
+INC00919,19.037096,73.016027,Nerul Lake Garden,Assault,4,Afternoon (12-17),2025-12-25
+INC00920,19.041124,73.019524,Nerul Sector 19A,Stalking,3,Evening (17-21),2024-06-15
+INC00921,19.028412,73.020363,Nerul Sector 3,Robbery,5,Night (21-6),2025-04-14
+INC00922,19.033748,73.020261,Nerul Lake Garden,Kidnapping Attempt,5,Evening (17-21),2024-10-29
+INC00923,19.037168,73.025757,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),3,Night (21-6),2025-03-28
+INC00924,19.038013,73.018353,Nerul Lake Garden,Chain Snatching,3,Night (21-6),2024-04-29
+INC00925,19.007698,73.01844,Seawoods Grand Central,Molestation,5,Evening (17-21),2024-11-30
+INC00926,19.040665,73.013261,Nerul Sector 19A,Kidnapping Attempt,5,Night (21-6),2024-10-11
+INC00927,19.02618,73.008307,Nerul Sector 28,Suspicious Activity / Loitering,1,Night (21-6),2025-02-07
+INC00928,19.029924,73.008825,Nerul Sector 28,Kidnapping Attempt,4,Night (21-6),2025-01-04
+INC00929,19.032184,73.03083,Nerul East,Assault,5,Evening (17-21),2024-10-18
+INC00930,19.033811,73.01382,Nerul West,Kidnapping Attempt,4,Afternoon (12-17),2025-03-30
+INC00931,19.047429,73.025309,DY Patil Stadium Area,Robbery,5,Morning (6-12),2025-08-24
+INC00932,19.037649,73.009426,Nerul Sector 20,Kidnapping Attempt,5,Morning (6-12),2025-08-27
+INC00933,19.031708,73.027276,Nerul East,Theft,3,Afternoon (12-17),2025-04-18
+INC00934,19.030594,73.027158,Nerul Sector 22,Theft,3,Morning (6-12),2024-11-05
+INC00935,19.011453,73.019419,Seawoods Grand Central,Molestation,3,Night (21-6),2024-06-06
+INC00936,19.010901,73.020124,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,1,Night (21-6),2024-10-21
+INC00937,19.042435,73.030254,DY Patil Stadium Area,Molestation,3,Morning (6-12),2024-10-10
+INC00938,19.037955,73.018534,Nerul Balaji Mandir Area,Assault,5,Evening (17-21),2024-09-21
+INC00939,19.037794,73.024546,Nerul Balaji Mandir Area,Assault,3,Night (21-6),2024-06-15
+INC00940,19.036969,73.015388,Nerul Sector 19A,Stalking,3,Afternoon (12-17),2024-10-06
+INC00941,19.034356,73.013297,Nerul West,Assault,3,Afternoon (12-17),2025-06-26
+INC00942,19.040611,73.013132,Nerul Sector 20,Stalking,2,Evening (17-21),2024-06-20
+INC00943,19.028581,73.01553,Nerul Sector 3,Theft,2,Night (21-6),2025-12-05
+INC00944,19.031767,73.01064,Nerul West,Stalking,2,Morning (6-12),2024-10-15
+INC00945,19.03723,73.009296,Nerul West,Stalking,2,Afternoon (12-17),2025-05-30
+INC00946,19.020653,73.025361,Nerul Sector 40,Kidnapping Attempt,4,Evening (17-21),2024-03-19
+INC00947,19.048051,73.017387,Nerul Sector 21,Suspicious Activity / Loitering,1,Evening (17-21),2025-01-06
+INC00948,19.035536,73.027618,Nerul Sector 22,Domestic Violence (reported outdoors),3,Afternoon (12-17),2024-11-07
+INC00949,19.035856,73.016649,Nerul Railway Station Area,Stalking,3,Night (21-6),2024-11-10
+INC00950,19.030679,73.028349,Nerul Sector 22,Robbery,3,Morning (6-12),2025-05-10
+INC00951,19.04134,73.023863,DY Patil Stadium Area,Kidnapping Attempt,4,Evening (17-21),2024-09-16
+INC00952,19.03633,73.017041,Nerul Sector 19A,Eve Teasing / Harassment,1,Night (21-6),2024-07-29
+INC00953,19.027478,73.006812,Nerul Sector 28,Eve Teasing / Harassment,2,Night (21-6),2024-10-11
+INC00954,19.033818,73.012841,Nerul West,Domestic Violence (reported outdoors),3,Evening (17-21),2024-03-10
+INC00955,19.048057,73.016106,Nerul Sector 21,Kidnapping Attempt,5,Night (21-6),2024-10-15
+INC00956,19.031213,73.021297,Nerul Sector 23,Eve Teasing / Harassment,2,Night (21-6),2025-12-25
+INC00957,19.032932,73.022715,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-12-29
+INC00958,19.034393,73.028114,Nerul East,Robbery,3,Night (21-6),2024-11-17
+INC00959,19.045227,73.014158,Nerul Sector 21,Suspicious Activity / Loitering,1,Night (21-6),2025-07-24
+INC00960,19.036458,73.01565,Nerul Sector 19A,Robbery,4,Evening (17-21),2024-11-15
+INC00961,19.027807,73.029258,"Juhu Nagar, Nerul",Robbery,4,Night (21-6),2025-05-02
+INC00962,19.032434,73.01399,Nerul West,Suspicious Activity / Loitering,1,Evening (17-21),2025-06-19
+INC00963,19.037454,73.010158,Nerul Sector 20,Domestic Violence (reported outdoors),2,Night (21-6),2024-06-21
+INC00964,19.03941,73.008593,Nerul Sector 20,Molestation,5,Morning (6-12),2025-03-10
+INC00965,19.032228,73.023708,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),3,Night (21-6),2025-10-21
+INC00966,19.033849,73.029333,Nerul East,Robbery,5,Evening (17-21),2024-05-30
+INC00967,19.026864,73.028006,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Evening (17-21),2024-05-17
+INC00968,19.030697,73.016123,Nerul Railway Station Area,Eve Teasing / Harassment,3,Night (21-6),2024-07-02
+INC00969,19.035837,73.026616,Nerul East,Theft,1,Night (21-6),2025-11-07
+INC00970,19.039141,73.025342,Nerul Sector 8,Molestation,5,Night (21-6),2025-05-17
+INC00971,19.035093,73.021749,Nerul Sector 8,Kidnapping Attempt,5,Night (21-6),2024-02-02
+INC00972,19.048041,73.023953,DY Patil Stadium Area,Suspicious Activity / Loitering,1,Night (21-6),2025-03-29
+INC00973,19.026288,73.027415,"Juhu Nagar, Nerul",Theft,2,Evening (17-21),2024-05-17
+INC00974,19.013226,73.0174,Seawoods Grand Central,Eve Teasing / Harassment,3,Night (21-6),2025-12-02
+INC00975,19.030578,73.016807,Nerul Sector 3,Stalking,2,Evening (17-21),2025-05-21
+INC00976,19.035936,73.026822,Nerul East,Theft,2,Morning (6-12),2025-08-27
+INC00977,19.036826,73.014631,Nerul Sector 19A,Domestic Violence (reported outdoors),2,Night (21-6),2025-10-02
+INC00978,19.035545,73.015925,Nerul Lake Garden,Assault,5,Evening (17-21),2025-11-08
+INC00979,19.015981,73.024185,Nerul Sector 40,Domestic Violence (reported outdoors),2,Night (21-6),2024-03-08
+INC00980,19.008416,73.014858,Seawoods Grand Central,Kidnapping Attempt,5,Morning (6-12),2025-11-04
+INC00981,19.045544,73.030211,DY Patil Stadium Area,Theft,1,Night (21-6),2025-08-25
+INC00982,19.037786,73.018722,Nerul Railway Station Area,Robbery,4,Evening (17-21),2025-05-15
+INC00983,19.047027,73.011647,Nerul Sector 21,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-11-02
+INC00984,19.038755,73.007614,Nerul West,Eve Teasing / Harassment,2,Afternoon (12-17),2024-02-18
+INC00985,19.01547,73.016716,Seawoods Grand Central,Molestation,3,Night (21-6),2025-08-15
+INC00986,19.046235,73.012187,Nerul Sector 21,Domestic Violence (reported outdoors),4,Evening (17-21),2024-12-21
+INC00987,19.041712,73.009415,Nerul Sector 20,Theft,3,Night (21-6),2024-11-16
+INC00988,19.029315,73.00601,Nerul Sector 28,Kidnapping Attempt,5,Night (21-6),2025-07-14
+INC00989,19.031047,73.022023,Nerul Sector 23,Kidnapping Attempt,5,Evening (17-21),2024-08-06
+INC00990,19.028143,73.031103,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),4,Night (21-6),2025-10-03
+INC00991,19.039978,73.014614,Nerul Sector 19A,Stalking,3,Afternoon (12-17),2025-12-02
+INC00992,19.014253,73.016782,Seawoods Grand Central,Eve Teasing / Harassment,2,Night (21-6),2024-09-30
+INC00993,19.012668,73.015552,Seawoods Grand Central,Domestic Violence (reported outdoors),3,Evening (17-21),2024-04-26
+INC00994,19.030535,73.022465,Nerul Sector 22,Theft,3,Evening (17-21),2025-03-22
+INC00995,19.046175,73.023296,DY Patil Stadium Area,Stalking,3,Morning (6-12),2024-09-21
+INC00996,19.013769,73.016408,Nerul Sector 50 (Seawoods),Chain Snatching,5,Night (21-6),2024-02-26
+INC00997,19.039011,73.009384,Nerul Sector 20,Eve Teasing / Harassment,3,Night (21-6),2025-11-18
+INC00998,19.039675,73.013718,Nerul Sector 20,Stalking,3,Morning (6-12),2025-05-27
+INC00999,19.045676,73.016632,Nerul Sector 21,Kidnapping Attempt,5,Evening (17-21),2024-04-02
+INC01000,19.018799,73.025186,Nerul Sector 40,Assault,4,Night (21-6),2025-02-03
+INC01001,19.021484,73.020744,Nerul Sector 40,Eve Teasing / Harassment,2,Afternoon (12-17),2024-10-08
+INC01002,19.029267,73.032903,"Juhu Nagar, Nerul",Chain Snatching,4,Evening (17-21),2025-12-17
+INC01003,19.044032,73.01339,Nerul Sector 21,Molestation,4,Night (21-6),2024-05-28
+INC01004,19.034802,73.008942,Nerul West,Theft,1,Evening (17-21),2025-09-12
+INC01005,19.042532,73.016998,Nerul Sector 19A,Chain Snatching,3,Afternoon (12-17),2025-01-28
+INC01006,19.012612,73.019105,Seawoods Grand Central,Eve Teasing / Harassment,2,Night (21-6),2025-02-01
+INC01007,19.037178,73.018844,Nerul Railway Station Area,Theft,2,Morning (6-12),2024-08-29
+INC01008,19.009183,73.020622,Seawoods Grand Central,Suspicious Activity / Loitering,1,Night (21-6),2025-10-21
+INC01009,19.047315,73.025192,DY Patil Stadium Area,Eve Teasing / Harassment,3,Evening (17-21),2025-02-26
+INC01010,19.038239,73.019514,Nerul Lake Garden,Eve Teasing / Harassment,2,Night (21-6),2025-06-02
+INC01011,19.039315,73.011817,Nerul Sector 20,Kidnapping Attempt,5,Evening (17-21),2024-01-29
+INC01012,19.040931,73.01317,Nerul Sector 19A,Suspicious Activity / Loitering,1,Morning (6-12),2024-07-23
+INC01013,19.01001,73.014158,Seawoods Grand Central,Stalking,3,Evening (17-21),2025-10-26
+INC01014,19.035776,73.025986,Nerul Sector 22,Assault,5,Evening (17-21),2024-05-16
+INC01015,19.009888,73.019744,Nerul Sector 50 (Seawoods),Assault,5,Afternoon (12-17),2025-02-28
+INC01016,19.032455,73.013011,Nerul West,Domestic Violence (reported outdoors),3,Morning (6-12),2024-01-24
+INC01017,19.031177,73.018013,Nerul Sector 3,Eve Teasing / Harassment,3,Afternoon (12-17),2025-12-19
+INC01018,19.024398,73.021944,Nerul Sector 23,Domestic Violence (reported outdoors),3,Morning (6-12),2025-01-11
+INC01019,19.031578,73.017939,Nerul Sector 23,Kidnapping Attempt,5,Night (21-6),2025-04-09
+INC01020,19.030948,73.023709,Nerul Balaji Mandir Area,Molestation,4,Afternoon (12-17),2025-05-21
+INC01021,19.032042,73.030851,Nerul East,Domestic Violence (reported outdoors),3,Night (21-6),2024-10-16
+INC01022,19.029347,73.007268,Nerul Sector 28,Stalking,2,Afternoon (12-17),2024-09-25
+INC01023,19.018941,73.026259,Nerul Sector 40,Assault,5,Morning (6-12),2025-04-25
+INC01024,19.035972,73.028295,Nerul Sector 22,Robbery,4,Night (21-6),2025-12-26
+INC01025,19.046889,73.02505,DY Patil Stadium Area,Eve Teasing / Harassment,1,Morning (6-12),2024-08-28
+INC01026,19.037266,73.025974,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),2,Morning (6-12),2025-05-31
+INC01027,19.03342,73.027158,Nerul East,Assault,4,Night (21-6),2025-07-26
+INC01028,19.040444,73.013782,Nerul Sector 19A,Kidnapping Attempt,5,Night (21-6),2025-04-24
+INC01029,19.029717,73.026182,Nerul Sector 22,Robbery,4,Afternoon (12-17),2024-11-16
+INC01030,19.043628,73.015694,Nerul Sector 19A,Theft,2,Night (21-6),2024-10-16
+INC01031,19.013403,73.021093,Nerul Sector 50 (Seawoods),Theft,3,Evening (17-21),2024-06-17
+INC01032,19.038395,73.01643,Nerul Lake Garden,Stalking,4,Morning (6-12),2024-06-01
+INC01033,19.037639,73.011987,Nerul Sector 19A,Theft,2,Night (21-6),2025-03-22
+INC01034,19.049462,73.017418,Nerul Sector 21,Chain Snatching,4,Evening (17-21),2025-12-27
+INC01035,19.029882,73.016944,Nerul Sector 3,Stalking,2,Evening (17-21),2024-07-27
+INC01036,19.008945,73.014846,Seawoods Grand Central,Kidnapping Attempt,5,Evening (17-21),2025-11-10
+INC01037,19.030668,73.011773,Nerul Sector 28,Kidnapping Attempt,5,Evening (17-21),2024-03-19
+INC01038,19.020146,73.024415,Nerul Sector 40,Assault,3,Afternoon (12-17),2025-11-27
+INC01039,19.044653,73.014723,Nerul Sector 21,Eve Teasing / Harassment,2,Afternoon (12-17),2024-03-24
+INC01040,19.032646,73.031276,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Evening (17-21),2024-01-06
+INC01041,19.040258,73.017749,Nerul Lake Garden,Suspicious Activity / Loitering,1,Night (21-6),2025-08-05
+INC01042,19.030691,73.020889,Nerul Sector 22,Theft,2,Night (21-6),2024-03-13
+INC01043,19.033615,73.016051,Nerul Sector 3,Robbery,4,Afternoon (12-17),2025-02-12
+INC01044,19.036664,73.008666,Nerul Sector 20,Robbery,5,Afternoon (12-17),2025-10-31
+INC01045,19.029965,73.024427,Nerul Sector 22,Robbery,4,Night (21-6),2025-09-09
+INC01046,19.031872,73.021269,Nerul Sector 22,Assault,4,Evening (17-21),2025-02-01
+INC01047,19.032148,73.022803,Nerul Balaji Mandir Area,Eve Teasing / Harassment,3,Night (21-6),2025-09-20
+INC01048,19.027473,73.020408,Nerul Sector 23,Chain Snatching,3,Night (21-6),2025-11-23
+INC01049,19.019181,73.024709,Nerul Sector 40,Suspicious Activity / Loitering,1,Afternoon (12-17),2025-03-23
+INC01050,19.043758,73.010821,Nerul Sector 20,Stalking,3,Night (21-6),2024-11-03
+INC01051,19.018185,73.021364,Nerul Sector 40,Chain Snatching,2,Night (21-6),2025-06-09
+INC01052,19.045585,73.013304,Nerul Sector 21,Suspicious Activity / Loitering,1,Evening (17-21),2025-08-22
+INC01053,19.042649,73.00713,Nerul Sector 20,Suspicious Activity / Loitering,1,Night (21-6),2025-02-06
+INC01054,19.036466,73.018714,Nerul Sector 19A,Theft,2,Evening (17-21),2025-04-10
+INC01055,19.03099,73.028121,"Juhu Nagar, Nerul",Stalking,3,Afternoon (12-17),2025-09-10
+INC01056,19.015473,73.015851,Nerul Sector 50 (Seawoods),Kidnapping Attempt,5,Morning (6-12),2024-04-29
+INC01057,19.031274,73.019517,Nerul Railway Station Area,Robbery,5,Evening (17-21),2025-09-23
+INC01058,19.036525,73.013705,Nerul West,Robbery,4,Morning (6-12),2024-05-18
+INC01059,19.031426,73.022228,Nerul Railway Station Area,Molestation,3,Afternoon (12-17),2025-10-26
+INC01060,19.034198,73.023986,Nerul Sector 22,Kidnapping Attempt,5,Morning (6-12),2025-04-19
+INC01061,19.032792,73.020675,Nerul Sector 22,Stalking,3,Night (21-6),2025-03-31
+INC01062,19.033772,73.024878,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),3,Afternoon (12-17),2025-08-06
+INC01063,19.031407,73.024063,Nerul East,Robbery,5,Night (21-6),2025-08-15
+INC01064,19.033992,73.013296,Nerul Sector 3,Robbery,5,Evening (17-21),2025-09-18
+INC01065,19.031855,73.018486,Nerul Balaji Mandir Area,Chain Snatching,4,Evening (17-21),2025-07-20
+INC01066,19.038643,73.012186,Nerul Sector 20,Suspicious Activity / Loitering,1,Evening (17-21),2025-10-23
+INC01067,19.034587,73.00949,Nerul West,Stalking,3,Night (21-6),2025-04-25
+INC01068,19.034505,73.010061,Nerul West,Domestic Violence (reported outdoors),3,Night (21-6),2025-11-03
+INC01069,19.027049,73.028347,"Juhu Nagar, Nerul",Robbery,5,Night (21-6),2025-11-20
+INC01070,19.037368,73.012398,Nerul West,Stalking,3,Afternoon (12-17),2024-03-29
+INC01071,19.031033,73.019596,Nerul Balaji Mandir Area,Domestic Violence (reported outdoors),4,Morning (6-12),2025-03-01
+INC01072,19.032429,73.019675,Nerul Balaji Mandir Area,Chain Snatching,2,Evening (17-21),2024-09-24
+INC01073,19.036415,73.007398,Nerul West,Kidnapping Attempt,4,Night (21-6),2024-12-11
+INC01074,19.041912,73.024814,DY Patil Stadium Area,Kidnapping Attempt,5,Evening (17-21),2024-12-14
+INC01075,19.037155,73.012161,Nerul West,Kidnapping Attempt,5,Night (21-6),2025-12-07
+INC01076,19.037834,73.019833,Nerul Sector 8,Chain Snatching,5,Night (21-6),2024-04-23
+INC01077,19.047753,73.014877,Nerul Sector 21,Eve Teasing / Harassment,1,Evening (17-21),2024-06-20
+INC01078,19.048467,73.017288,Nerul Sector 21,Stalking,3,Night (21-6),2025-06-02
+INC01079,19.03586,73.018794,Nerul Balaji Mandir Area,Assault,4,Night (21-6),2024-05-05
+INC01080,19.029513,73.007326,Nerul Sector 28,Chain Snatching,3,Night (21-6),2025-04-30
+INC01081,19.034794,73.01387,Nerul Lake Garden,Theft,2,Night (21-6),2025-02-28
+INC01082,19.036036,73.007964,Nerul West,Kidnapping Attempt,5,Night (21-6),2024-05-21
+INC01083,19.044307,73.026274,DY Patil Stadium Area,Suspicious Activity / Loitering,1,Night (21-6),2025-03-29
+INC01084,19.035161,73.026241,Nerul Sector 22,Kidnapping Attempt,4,Morning (6-12),2024-11-18
+INC01085,19.038856,73.025315,Nerul East,Chain Snatching,4,Night (21-6),2025-11-07
+INC01086,19.03622,73.020962,Nerul Sector 22,Kidnapping Attempt,5,Evening (17-21),2025-11-28
+INC01087,19.032988,73.018772,Nerul Sector 3,Assault,4,Morning (6-12),2024-10-13
+INC01088,19.037883,73.020175,Nerul Sector 8,Robbery,5,Evening (17-21),2025-07-11
+INC01089,19.03158,73.033101,"Juhu Nagar, Nerul",Robbery,4,Night (21-6),2024-03-27
+INC01090,19.040099,73.01482,Nerul Sector 19A,Stalking,3,Afternoon (12-17),2025-06-07
+INC01091,19.028498,73.015726,Nerul Sector 3,Stalking,2,Morning (6-12),2025-07-06
+INC01092,19.010431,73.021193,Nerul Sector 50 (Seawoods),Robbery,4,Night (21-6),2025-01-16
+INC01093,19.013516,73.017836,Nerul Sector 50 (Seawoods),Chain Snatching,3,Evening (17-21),2025-08-09
+INC01094,19.033525,73.023564,Nerul Railway Station Area,Domestic Violence (reported outdoors),3,Evening (17-21),2024-10-18
+INC01095,19.034715,73.024657,Nerul Sector 22,Molestation,3,Evening (17-21),2025-08-19
+INC01096,19.032583,73.00689,Nerul Sector 28,Eve Teasing / Harassment,2,Night (21-6),2025-02-25
+INC01097,19.037238,73.010399,Nerul Sector 20,Stalking,4,Afternoon (12-17),2024-03-20
+INC01098,19.036415,73.009222,Nerul West,Kidnapping Attempt,5,Night (21-6),2025-08-21
+INC01099,19.035092,73.025972,Nerul Balaji Mandir Area,Suspicious Activity / Loitering,2,Night (21-6),2024-05-27
+INC01100,19.034017,73.024689,Nerul Sector 8,Stalking,3,Night (21-6),2025-04-11
+INC01101,19.030261,73.019255,Nerul Balaji Mandir Area,Kidnapping Attempt,5,Night (21-6),2024-05-01
+INC01102,19.041883,73.025957,DY Patil Stadium Area,Theft,1,Evening (17-21),2024-04-30
+INC01103,19.033439,73.008996,Nerul West,Theft,3,Morning (6-12),2024-05-26
+INC01104,19.03527,73.023874,Nerul Sector 22,Theft,2,Afternoon (12-17),2025-05-15
+INC01105,19.030879,73.018489,Nerul Railway Station Area,Chain Snatching,4,Evening (17-21),2024-11-13
+INC01106,19.033202,73.032251,"Juhu Nagar, Nerul",Suspicious Activity / Loitering,1,Night (21-6),2025-05-31
+INC01107,19.032093,73.031338,"Juhu Nagar, Nerul",Stalking,3,Morning (6-12),2025-10-01
+INC01108,19.044098,73.030202,DY Patil Stadium Area,Assault,3,Night (21-6),2025-03-29
+INC01109,19.013667,73.021928,Nerul Sector 50 (Seawoods),Chain Snatching,4,Evening (17-21),2024-05-06
+INC01110,19.026681,73.020641,Nerul Sector 3,Kidnapping Attempt,4,Night (21-6),2025-06-18
+INC01111,19.032004,73.008021,Nerul Sector 28,Chain Snatching,2,Night (21-6),2025-06-28
+INC01112,19.031699,73.0192,Nerul Sector 23,Molestation,4,Night (21-6),2025-08-16
+INC01113,19.026677,73.030268,"Juhu Nagar, Nerul",Assault,5,Evening (17-21),2025-05-18
+INC01114,19.03262,73.017144,Nerul Railway Station Area,Chain Snatching,3,Evening (17-21),2024-04-03
+INC01115,19.049338,73.014334,Nerul Sector 21,Theft,2,Afternoon (12-17),2024-04-01
+INC01116,19.031454,73.023758,Nerul Sector 22,Stalking,2,Evening (17-21),2024-11-29
+INC01117,19.024217,73.017468,Nerul Sector 23,Robbery,3,Evening (17-21),2025-02-26
+INC01118,19.034563,73.020033,Nerul Lake Garden,Eve Teasing / Harassment,1,Afternoon (12-17),2025-09-03
+INC01119,19.017944,73.025019,Nerul Sector 40,Robbery,3,Afternoon (12-17),2024-11-21
+INC01120,19.030425,73.026524,"Juhu Nagar, Nerul",Chain Snatching,4,Evening (17-21),2024-01-20
+INC01121,19.012933,73.019689,Nerul Sector 50 (Seawoods),Eve Teasing / Harassment,3,Night (21-6),2025-10-29
+INC01122,19.031437,73.023754,Nerul Sector 22,Eve Teasing / Harassment,2,Night (21-6),2024-05-25
+INC01123,19.035324,73.007346,Nerul West,Molestation,5,Night (21-6),2025-07-22
+INC01124,19.026334,73.032501,"Juhu Nagar, Nerul",Domestic Violence (reported outdoors),3,Night (21-6),2024-06-20
+INC01125,19.030381,73.023074,Nerul Railway Station Area,Theft,2,Night (21-6),2025-01-24
+INC01126,19.03774,73.007702,Nerul West,Kidnapping Attempt,5,Morning (6-12),2025-06-30
+INC01127,19.038905,73.010162,Nerul Sector 20,Eve Teasing / Harassment,2,Night (21-6),2024-10-13
+INC01128,19.042687,73.027039,DY Patil Stadium Area,Assault,4,Evening (17-21),2025-12-25
+INC01129,19.028184,73.031298,"Juhu Nagar, Nerul",Assault,4,Afternoon (12-17),2025-09-05
+INC01130,19.032627,73.018035,Nerul Lake Garden,Chain Snatching,4,Morning (6-12),2024-01-10
+INC01131,19.027305,73.024162,Nerul Sector 23,Suspicious Activity / Loitering,2,Evening (17-21),2025-10-26
+INC01132,19.040809,73.014141,Nerul Sector 20,Suspicious Activity / Loitering,1,Evening (17-21),2025-01-20
+INC01133,19.034094,73.012713,Nerul West,Chain Snatching,2,Evening (17-21),2024-07-16
+INC01134,19.026075,73.031945,"Juhu Nagar, Nerul",Theft,2,Afternoon (12-17),2025-09-20
+INC01135,19.013967,73.015269,Seawoods Grand Central,Suspicious Activity / Loitering,1,Morning (6-12),2025-05-19
+INC01136,19.026057,73.011874,Nerul Sector 28,Robbery,3,Night (21-6),2025-08-05
+INC01137,19.036952,73.023414,Nerul Sector 8,Domestic Violence (reported outdoors),4,Morning (6-12),2024-05-11
+INC01138,19.037519,73.014469,Nerul Sector 20,Molestation,4,Afternoon (12-17),2025-11-25
+INC01139,19.037836,73.021244,Nerul Railway Station Area,Kidnapping Attempt,5,Night (21-6),2025-04-09
+INC01140,19.037403,73.020828,Nerul Railway Station Area,Chain Snatching,3,Evening (17-21),2025-02-20
+INC01141,19.009474,73.019146,Nerul Sector 50 (Seawoods),Suspicious Activity / Loitering,2,Evening (17-21),2024-02-14
+INC01142,19.014376,73.026347,Nerul Sector 40,Kidnapping Attempt,5,Evening (17-21),2025-02-05
+INC01143,19.028678,73.011041,Nerul Sector 28,Chain Snatching,3,Night (21-6),2025-03-09
+INC01144,19.043836,73.008575,Nerul Sector 20,Assault,4,Morning (6-12),2025-10-02
+INC01145,19.041723,73.013456,Nerul Sector 21,Chain Snatching,3,Night (21-6),2024-09-10
+INC01146,19.045289,73.01767,Nerul Sector 21,Chain Snatching,3,Evening (17-21),2024-08-30
+INC01147,19.042706,73.011957,Nerul Sector 20,Eve Teasing / Harassment,3,Evening (17-21),2024-03-28
+INC01148,19.043134,73.014719,Nerul Sector 19A,Eve Teasing / Harassment,2,Morning (6-12),2025-03-28
+INC01149,19.038212,73.016709,Nerul Sector 19A,Eve Teasing / Harassment,1,Night (21-6),2025-07-26
+INC01150,19.038159,73.014752,Nerul Sector 19A,Eve Teasing / Harassment,3,Afternoon (12-17),2025-09-05
+INC01151,19.033527,73.019414,Nerul Railway Station Area,Robbery,3,Evening (17-21),2025-11-22
+INC01152,19.033533,73.018326,Nerul Railway Station Area,Molestation,3,Morning (6-12),2025-09-01
+INC01153,19.041243,73.013726,Nerul Sector 20,Domestic Violence (reported outdoors),3,Evening (17-21),2024-09-19
+INC01154,19.034368,73.011797,Nerul West,Suspicious Activity / Loitering,1,Afternoon (12-17),2024-02-15
+INC01155,19.036821,73.016376,Nerul Sector 19A,Kidnapping Attempt,5,Evening (17-21),2025-07-08
+INC01156,19.030179,73.022969,Nerul Sector 22,Assault,4,Evening (17-21),2024-01-09
+INC01157,19.037692,73.024426,Nerul Sector 8,Chain Snatching,4,Evening (17-21),2025-07-26
+INC01158,19.039176,73.013263,Nerul Sector 19A,Molestation,4,Night (21-6),2024-12-15
+INC01159,19.031343,73.009558,Nerul Sector 28,Suspicious Activity / Loitering,1,Night (21-6),2025-08-02
+INC01160,19.037429,73.01585,Nerul Lake Garden,Stalking,2,Evening (17-21),2024-02-13
+INC01161,19.031755,73.01803,Nerul Balaji Mandir Area,Molestation,4,Evening (17-21),2024-08-06
+INC01162,19.017846,73.025147,Nerul Sector 40,Assault,5,Afternoon (12-17),2024-07-07
+INC01163,19.032803,73.01629,Nerul Railway Station Area,Chain Snatching,2,Morning (6-12),2025-03-26
+INC01164,19.031051,73.011302,Nerul Sector 28,Assault,3,Night (21-6),2024-07-22
+INC01165,19.028273,73.005752,Nerul Sector 28,Theft,2,Evening (17-21),2025-07-21
+INC01166,19.015428,73.019172,Nerul Sector 40,Theft,1,Morning (6-12),2025-11-24
+INC01167,19.032031,73.026799,Nerul Sector 22,Eve Teasing / Harassment,2,Night (21-6),2024-11-08
+INC01168,19.027921,73.032476,"Juhu Nagar, Nerul",Stalking,4,Night (21-6),2024-03-07
+INC01169,19.042655,73.017393,Nerul Sector 21,Molestation,4,Evening (17-21),2025-12-12
+INC01170,19.033544,73.009436,Nerul West,Molestation,3,Night (21-6),2025-08-24
+INC01171,19.032835,73.006353,Nerul Sector 28,Stalking,3,Afternoon (12-17),2025-10-06
+INC01172,19.015483,73.021812,Nerul Sector 50 (Seawoods),Domestic Violence (reported outdoors),5,Afternoon (12-17),2024-03-24
+INC01173,19.036328,73.022919,Nerul Balaji Mandir Area,Stalking,4,Night (21-6),2025-10-22
+INC01174,19.035994,73.023151,Nerul Sector 8,Stalking,4,Night (21-6),2025-06-22
+INC01175,19.035725,73.021958,Nerul Balaji Mandir Area,Theft,3,Evening (17-21),2025-08-20
+INC01176,19.037458,73.018859,Nerul Sector 19A,Suspicious Activity / Loitering,1,Evening (17-21),2024-11-09
+INC01177,19.04811,73.027571,DY Patil Stadium Area,Assault,4,Evening (17-21),2024-05-17
+INC01178,19.03886,73.011151,Nerul Sector 20,Molestation,3,Evening (17-21),2025-09-28
+INC01179,19.035909,73.01624,Nerul Lake Garden,Robbery,4,Night (21-6),2024-11-20
+INC01180,19.011559,73.016437,Nerul Sector 50 (Seawoods),Molestation,5,Evening (17-21),2025-01-02
+INC01181,19.038856,73.011014,Nerul Sector 20,Kidnapping Attempt,4,Night (21-6),2024-08-21
+INC01182,19.042449,73.012882,Nerul Sector 21,Kidnapping Attempt,5,Evening (17-21),2025-11-22
+INC01183,19.0345,73.018462,Nerul Lake Garden,Theft,2,Night (21-6),2024-05-21
+INC01184,19.033299,73.013068,Nerul Sector 3,Theft,2,Night (21-6),2025-02-17
+INC01185,19.037575,73.030062,Nerul East,Chain Snatching,4,Night (21-6),2024-06-01
+INC01186,19.032821,73.029787,Nerul East,Molestation,5,Afternoon (12-17),2025-08-24
+INC01187,19.032061,73.01878,Nerul Sector 3,Suspicious Activity / Loitering,1,Night (21-6),2024-11-16
+INC01188,19.02943,73.011535,Nerul Sector 28,Robbery,4,Evening (17-21),2025-07-25
+INC01189,19.032898,73.02032,Nerul Railway Station Area,Stalking,3,Night (21-6),2024-01-10
+INC01190,19.036483,73.024674,Nerul Balaji Mandir Area,Assault,4,Evening (17-21),2025-12-03
+INC01191,19.037103,73.029524,Nerul East,Theft,2,Evening (17-21),2025-08-04
+INC01192,19.043177,73.01293,Nerul Sector 19A,Assault,5,Night (21-6),2024-07-28
+INC01193,19.03151,73.027091,Nerul East,Suspicious Activity / Loitering,1,Evening (17-21),2025-04-07
+INC01194,19.008246,73.014335,Seawoods Grand Central,Kidnapping Attempt,5,Morning (6-12),2025-12-06
+INC01195,19.030215,73.019592,Nerul Balaji Mandir Area,Robbery,4,Afternoon (12-17),2024-10-25
+INC01196,19.03356,73.01946,Nerul Sector 8,Kidnapping Attempt,5,Afternoon (12-17),2025-02-24
+INC01197,19.032256,73.024886,Nerul East,Kidnapping Attempt,5,Evening (17-21),2024-03-11
+INC01198,19.038641,73.030926,Nerul East,Stalking,3,Evening (17-21),2025-12-27
+INC01199,19.03127,73.022601,Nerul Balaji Mandir Area,Theft,2,Evening (17-21),2025-12-02
+INC01200,19.028204,73.02606,"Juhu Nagar, Nerul",Stalking,4,Morning (6-12),2025-02-12
