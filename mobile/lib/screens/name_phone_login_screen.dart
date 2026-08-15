@@ -97,9 +97,15 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
                 child: const Text('Continue'),
               ),
               if (_isLoading) const Padding(
-                padding: EdgeInsets.only(top: 16),
-                child: Center(child: CircularProgressIndicator()),
-              ),
+  padding: EdgeInsets.only(top: 16),
+  child: Column(
+    children: [
+      CircularProgressIndicator(),
+      SizedBox(height: 8),
+      Text('Setting up your session...', style: TextStyle(color: Colors.grey, fontSize: 12)),
+    ],
+  ),
+),
             ],
           ),
         ),
