@@ -1,275 +1,55 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'screens/phone_auth_screen.dart';
+import 'screens/home_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(); // reads android/app/google-services.json (see README)
+  runApp(const WomenSafetyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class WomenSafetyApp extends StatelessWidget {
+  const WomenSafetyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const seedColor = Color(0xFF0F766E); // teal — swap this one line to re-theme the whole app
-
     return MaterialApp(
+      title: 'Women Safety App',
       debugShowCheckedModeBanner: false,
-      title: 'My App',
       theme: ThemeData(
+        primaryColor: const Color(0xFF8E24AA),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF8E24AA)),
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: seedColor),
-        scaffoldBackgroundColor: const Color(0xFFF7F8FA),
-        fontFamily: 'Roboto',
-        inputDecorationTheme: InputDecorationTheme(
-          filled: true,
-          fillColor: Colors.white,
-          hintStyle: TextStyle(color: Colors.grey.shade400),
-          contentPadding:
-              const EdgeInsets.symmetric(horizontal: 18, vertical: 18),
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(16),
-            borderSide: BorderSide(color: Colors.grey.shade200),
-          ),
-          enabledBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(16),
-            borderSide: BorderSide(color: Colors.grey.shade200),
-          ),
-          focusedBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(16),
-            borderSide: BorderSide(color: seedColor, width: 1.6),
-          ),
-          errorBorder: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(16),
-            borderSide: const BorderSide(color: Color(0xFFDC2626)),
-          ),
-        ),
-        elevatedButtonTheme: ElevatedButtonThemeData(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: seedColor,
-            foregroundColor: Colors.white,
-            elevation: 0,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16),
-            ),
-          ),
-        ),
       ),
-      home: const LoginPage(),
+      // AuthGate: watches Firebase's login state and routes to either the
+      // phone-auth screen or the home screen -- same idea as MainActivity
+      // in the earlier native-Android version, just reactive instead of
+      // a one-time check on launch.
+      home: const AuthGate(),
     );
   }
 }
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
-
-  @override
-  State<LoginPage> createState() => _LoginPageState();
-}
-
-class _LoginPageState extends State<LoginPage> {
-  final TextEditingController nameController = TextEditingController();
-  final TextEditingController phoneController = TextEditingController();
-  final _formKey = GlobalKey<FormState>();
-
-  bool _isLoading = false;
-
-  @override
-  void dispose() {
-    nameController.dispose();
-    phoneController.dispose();
-    super.dispose();
-  }
-
-  String? _validateName(String? value) {
-    if (value == null || value.trim().isEmpty) {
-      return 'Please enter your name';
-    }
-    if (value.trim().length < 2) {
-      return 'Name is too short';
-    }
-    return null;
-  }
-
-  String? _validatePhone(String? value) {
-    final phone = value?.trim() ?? '';
-    if (phone.isEmpty) {
-      return 'Please enter your phone number';
-    }
-    if (!RegExp(r'^[6-9]\d{9}$').hasMatch(phone)) {
-      return 'Enter a valid 10-digit number';
-    }
-    return null;
-  }
-
-  Future<void> _handleContinue() async {
-    FocusScope.of(context).unfocus();
-
-    if (!_formKey.currentState!.validate()) return;
-
-    setState(() => _isLoading = true);
-
-    // Backend connection will be added here later.
-    await Future.delayed(const Duration(milliseconds: 900));
-    debugPrint('Name: ${nameController.text.trim()}');
-    debugPrint('Phone: ${phoneController.text.trim()}');
-
-    if (!mounted) return;
-    setState(() => _isLoading = false);
-
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        behavior: SnackBarBehavior.floating,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-        backgroundColor: const Color(0xFF0F766E),
-        content: const Text('Details entered successfully!'),
-      ),
-    );
-  }
+class AuthGate extends StatelessWidget {
+  const AuthGate({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return Scaffold(
-      body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
-          child: Form(
-            key: _formKey,
-            autovalidateMode: AutovalidateMode.onUserInteraction,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 24),
-
-                // Logo / App icon
-                Container(
-                  height: 72,
-                  width: 72,
-                  decoration: BoxDecoration(
-                    color: theme.colorScheme.primary,
-                    borderRadius: BorderRadius.circular(20),
-                    boxShadow: [
-                      BoxShadow(
-                        color: theme.colorScheme.primary.withOpacity(0.25),
-                        blurRadius: 20,
-                        offset: const Offset(0, 8),
-                      ),
-                    ],
-                  ),
-                  child: const Icon(
-                    Icons.phone_android_rounded,
-                    color: Colors.white,
-                    size: 34,
-                  ),
-                ),
-
-                const SizedBox(height: 40),
-
-                Text(
-                  'Welcome',
-                  style: theme.textTheme.headlineMedium?.copyWith(
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: -0.5,
-                  ),
-                ),
-
-                const SizedBox(height: 8),
-
-                Text(
-                  'Enter your details to continue',
-                  style: theme.textTheme.bodyLarge?.copyWith(
-                    color: Colors.grey.shade600,
-                  ),
-                ),
-
-                const SizedBox(height: 36),
-
-                Text(
-                  'Name',
-                  style: theme.textTheme.labelLarge?.copyWith(
-                    fontWeight: FontWeight.w600,
-                    color: Colors.grey.shade800,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                TextFormField(
-                  controller: nameController,
-                  textCapitalization: TextCapitalization.words,
-                  textInputAction: TextInputAction.next,
-                  validator: _validateName,
-                  decoration: const InputDecoration(
-                    hintText: 'Enter your name',
-                    prefixIcon: Icon(Icons.person_outline_rounded),
-                  ),
-                ),
-
-                const SizedBox(height: 22),
-
-                Text(
-                  'Phone Number',
-                  style: theme.textTheme.labelLarge?.copyWith(
-                    fontWeight: FontWeight.w600,
-                    color: Colors.grey.shade800,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                TextFormField(
-                  controller: phoneController,
-                  keyboardType: TextInputType.phone,
-                  textInputAction: TextInputAction.done,
-                  maxLength: 10,
-                  validator: _validatePhone,
-                  onFieldSubmitted: (_) => _handleContinue(),
-                  decoration: const InputDecoration(
-                    hintText: 'Enter your phone number',
-                    prefixIcon: Icon(Icons.phone_outlined),
-                    prefixText: '+91   ',
-                    counterText: '',
-                  ),
-                ),
-
-                const SizedBox(height: 28),
-
-                SizedBox(
-                  width: double.infinity,
-                  height: 56,
-                  child: ElevatedButton(
-                    onPressed: _isLoading ? null : _handleContinue,
-                    child: _isLoading
-                        ? const SizedBox(
-                            height: 22,
-                            width: 22,
-                            child: CircularProgressIndicator(
-                              color: Colors.white,
-                              strokeWidth: 2.5,
-                            ),
-                          )
-                        : const Text(
-                            'Continue',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                  ),
-                ),
-
-                const SizedBox(height: 20),
-
-                Center(
-                  child: Text(
-                    'By continuing, you agree to our terms and conditions.',
-                    textAlign: TextAlign.center,
-                    style: theme.textTheme.bodySmall?.copyWith(
-                      color: Colors.grey.shade500,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
+    return StreamBuilder<User?>(
+      stream: FirebaseAuth.instance.authStateChanges(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            body: Center(child: CircularProgressIndicator()),
+          );
+        }
+        if (snapshot.hasData) {
+          return const HomeScreen();
+        }
+        return const PhoneAuthScreen();
+      },
     );
   }
 }
