@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'contacts_screen.dart';
 import 'map_screen.dart';
-import 'phone_auth_screen.dart';
+import 'name_phone_login_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
     await _authService.logout();
     if (!mounted) return;
     Navigator.of(context).pushAndRemoveUntil(
-      MaterialPageRoute(builder: (_) => const PhoneAuthScreen()),
+     MaterialPageRoute(builder: (_) => const NamePhoneLoginScreen()),
       (route) => false,
     );
   }

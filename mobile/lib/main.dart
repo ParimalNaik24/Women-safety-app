@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'screens/phone_auth_screen.dart';
+import 'screens/name_phone_login_screen.dart';
 import 'screens/home_screen.dart';
 
 Future<void> main() async {
@@ -48,7 +48,7 @@ class AuthGate extends StatelessWidget {
         if (snapshot.hasData) {
           return const HomeScreen();
         }
-        return const PhoneAuthScreen();
+        return const NamePhoneLoginScreen();;
       },
     );
   }

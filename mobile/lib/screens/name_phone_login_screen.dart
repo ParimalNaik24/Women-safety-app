@@ -1,25 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../services/auth_service.dart';
-import 'otp_verify_screen.dart';
 import 'home_screen.dart';
 
-/// First screen shown if not logged in. Collects ONLY name + phone number
-/// (no email, no password) and sends an OTP via Firebase Phone Auth.
-class PhoneAuthScreen extends StatefulWidget {
-  const PhoneAuthScreen({super.key});
+class NamePhoneLoginScreen extends StatefulWidget {
+  const NamePhoneLoginScreen({super.key});
 
   @override
-  State<PhoneAuthScreen> createState() => _PhoneAuthScreenState();
+  State<NamePhoneLoginScreen> createState() => _NamePhoneLoginScreenState();
 }
 
-class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
+class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
   final _authService = AuthService();
   final _nameController = TextEditingController();
   final _phoneController = TextEditingController();
   bool _isLoading = false;
 
-  Future<void> _sendOtp() async {
+  Future<void> _login() async {
     final name = _nameController.text.trim();
     final phoneDigits = _phoneController.text.trim();
 
@@ -32,44 +28,20 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
       return;
     }
 
-    // Firebase Phone Auth needs full international format. Hardcoding +91
-    // since this project targets Indian users -- add a country picker if
-    // you ever need multi-country support.
-    final fullPhoneNumber = '+91$phoneDigits';
-
     setState(() => _isLoading = true);
-
-    await _authService.startPhoneVerification(
-      phoneNumber: fullPhoneNumber,
-      onCodeSent: (verificationId, resendToken) {
-        setState(() => _isLoading = false);
-        if (!mounted) return;
-        Navigator.of(context).push(MaterialPageRoute(
-          builder: (_) => OtpVerifyScreen(
-            verificationId: verificationId,
-            phoneNumber: fullPhoneNumber,
-            fullName: name,
-          ),
-        ));
-      },
-      onAutoVerified: (credential) async {
-        // Some devices auto-detect the SMS and verify without user input.
-        try {
-          await _authService.signInWithCredential(credential, name);
-          if (!mounted) return;
-          Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (_) => const HomeScreen()),
-          );
-        } catch (e) {
-          setState(() => _isLoading = false);
-          _showMessage(e.toString());
-        }
-      },
-      onFailed: (message) {
-        setState(() => _isLoading = false);
-        _showMessage(message);
-      },
-    );
+    try {
+      await _authService.loginWithNameAndPhone(
+        fullName: name,
+        phoneNumber: '+91$phoneDigits',
+      );
+      if (!mounted) return;
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => const HomeScreen()),
+      );
+    } catch (e) {
+      setState(() => _isLoading = false);
+      _showMessage('Login failed: $e');
+    }
   }
 
   void _showMessage(String message) {
@@ -85,7 +57,7 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const SizedBox(height: 48),
+              const SizedBox(height: 64),
               const Text(
                 'Women Safety App',
                 textAlign: TextAlign.center,
@@ -115,19 +87,14 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
                 maxLength: 10,
               ),
               const SizedBox(height: 8),
-              const Text(
-                "We'll send a 6-digit verification code via SMS to confirm this number.",
-                style: TextStyle(fontSize: 12, color: Colors.grey),
-              ),
-              const SizedBox(height: 16),
               ElevatedButton(
-                onPressed: _isLoading ? null : _sendOtp,
+                onPressed: _isLoading ? null : _login,
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 14),
                   backgroundColor: const Color(0xFF8E24AA),
                   foregroundColor: Colors.white,
                 ),
-                child: const Text('Send OTP'),
+                child: const Text('Continue'),
               ),
               if (_isLoading) const Padding(
                 padding: EdgeInsets.only(top: 16),
