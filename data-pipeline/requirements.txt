@@ -1,0 +1,11 @@
+# Women Safety App - Mini Project
+# Week 1: Crime Data Preparation - Python dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional (for an interactive HTML map instead of the static PNG heatmap,
+# if you have internet access in your own environment):
+# folium>=0.15.0
