@@ -21,7 +21,7 @@ State clearly that this is simulated/sample data mimicking real crime
 report structure, and that a production version would integrate with
 an official police open-data API or NCRB dataset.
 
-Output: mumbai_crime_data.csv
+Output: nerul_crime_data.csv
 Columns: incident_id, latitude, longitude, area_name, crime_type,
          severity (1-5), time_of_day, date
 """

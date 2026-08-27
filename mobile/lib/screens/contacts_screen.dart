@@ -47,12 +47,21 @@ class _ContactsScreenState extends State<ContactsScreen> {
                 phoneNumber: phone,
                 relation: relationController.text.trim(),
               );
+              // Capture the Navigator BEFORE the await, so we're not touching
+              // `context` again after an async gap.
+              final navigator = Navigator.of(context);
               if (existing == null) {
                 await _contactsService.addContact(contact);
               } else {
                 await _contactsService.updateContact(contact);
               }
-              if (context.mounted) Navigator.pop(context, true);
+              // Defer the pop to after this frame finishes, so it never races
+              // with the StreamBuilder rebuilding from the Firestore write we
+              // just made. This is what actually fixes the _dependents.isEmpty
+              // assertion -- capturing navigator early wasn't enough on its own.
+              WidgetsBinding.instance.addPostFrameCallback((_) {
+                navigator.pop(true);
+              });
             },
             child: const Text('Save'),
           ),
@@ -60,9 +69,13 @@ class _ContactsScreenState extends State<ContactsScreen> {
       ),
     );
 
-    nameController.dispose();
-    phoneController.dispose();
-    relationController.dispose();
+    // Defer disposal too -- for the same reason. The dialog's TextFields
+    // might not have fully unmounted yet when this line runs otherwise.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      nameController.dispose();
+      phoneController.dispose();
+      relationController.dispose();
+    });
     // No manual refresh needed -- watchContacts() is a live stream (see build()).
     if (saved == true && mounted) {
       // no-op: StreamBuilder updates automatically

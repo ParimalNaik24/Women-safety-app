@@ -13,8 +13,8 @@ Takes the raw incident-level crime CSV (nerul_crime_data.csv) and:
     3. Normalizes danger scores to a 0-100 SAFETY SCORE per zone
        (100 = safest, 0 = most dangerous)
     4. Exports:
-        - mumbai_zone_safety_scores.csv   (zone_id, lat, lon, safety_score)
-        - mumbai_crime_heatmap.png        (visual heatmap of danger zones)
+        - nerul_zone_safety_scores.csv    (zone_id, lat, lon, safety_score)
+        - nerul_crime_heatmap.png         (visual heatmap of danger zones)
 
 This zone_safety_scores.csv is the file that Feature 1 (Safest Route
 Suggestion) will consume in Week 3: each candidate route's polyline

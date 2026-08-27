@@ -135,7 +135,7 @@ class _MapScreenState extends State<MapScreen> {
         points: _routes[i].points,
         color: isSelected
             ? (isSafest ? Colors.green : Colors.purple)
-            : Colors.grey.withOpacity(0.5),
+            : Colors.grey.withValues(alpha: 0.5),
         width: isSelected ? 6 : 3,
         patterns: isSelected ? [] : [PatternItem.dash(12), PatternItem.gap(8)],
       ));
@@ -218,7 +218,7 @@ class _MapScreenState extends State<MapScreen> {
       constraints: const BoxConstraints(maxHeight: 160),
       decoration: BoxDecoration(
         color: Colors.white,
-        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 8, offset: const Offset(0, -2))],
+        boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.1), blurRadius: 8, offset: const Offset(0, -2))],
       ),
       child: ListView.builder(
         padding: const EdgeInsets.symmetric(vertical: 8),

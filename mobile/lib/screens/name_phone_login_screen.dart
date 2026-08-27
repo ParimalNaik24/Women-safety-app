@@ -35,8 +35,9 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
         phoneNumber: '+91$phoneDigits',
       );
       if (!mounted) return;
-      Navigator.of(context).pushReplacement(
+      Navigator.of(context).pushAndRemoveUntil(
         MaterialPageRoute(builder: (_) => const HomeScreen()),
+        (route) => false,
       );
     } catch (e) {
       setState(() => _isLoading = false);
