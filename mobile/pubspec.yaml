@@ -21,7 +21,7 @@ dependencies:
   geolocator: ^13.0.1
 
   # Networking for Google Directions API calls
-  http: ^1.2.2
+  http: ^1.6.0
 
   # Parses the crime-data-pipeline's zone safety score CSV (Week 1 output)
   csv: ^6.0.0

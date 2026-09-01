@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import '../models/contact.dart';
-import '../services/contacts_service.dart';
 
 class ContactsScreen extends StatefulWidget {
   const ContactsScreen({super.key});
@@ -10,93 +8,61 @@ class ContactsScreen extends StatefulWidget {
 }
 
 class _ContactsScreenState extends State<ContactsScreen> {
-  final _contactsService = ContactsService();
+  final List<Map<String, String>> _contacts = [
+    {'name': 'Emergency Police', 'number': '112'},
+    {'name': 'Women Helpline', 'number': '1091'},
+  ];
 
-  Future<void> _openAddEditDialog({Contact? existing}) async {
-    final nameController = TextEditingController(text: existing?.name ?? '');
-    final phoneController = TextEditingController(text: existing?.phoneNumber ?? '');
-    final relationController = TextEditingController(text: existing?.relation ?? '');
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _phoneController = TextEditingController();
 
-    final saved = await showDialog<bool>(
+  void _addContact() {
+    if (_nameController.text.isNotEmpty && _phoneController.text.isNotEmpty) {
+      setState(() {
+        _contacts.add({
+          'name': _nameController.text,
+          'number': _phoneController.text,
+        });
+      });
+      _nameController.clear();
+      _phoneController.clear();
+      Navigator.pop(context);
+    }
+  }
+
+  void _showAddContactDialog() {
+    showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text(existing == null ? 'Add Contact' : 'Edit Contact'),
+        title: const Text('Add Emergency Contact'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            TextField(controller: nameController, decoration: const InputDecoration(labelText: 'Name')),
-            TextField(controller: phoneController, decoration: const InputDecoration(labelText: 'Phone Number'), keyboardType: TextInputType.phone),
-            TextField(controller: relationController, decoration: const InputDecoration(labelText: 'Relation (e.g. Mother, Friend)')),
+            TextField(
+              controller: _nameController,
+              decoration: const InputDecoration(labelText: 'Contact Name'),
+            ),
+            const SizedBox(height: 10),
+            TextField(
+              controller: _phoneController,
+              keyboardType: TextInputType.phone,
+              decoration: const InputDecoration(labelText: 'Phone Number'),
+            ),
           ],
         ),
         actions: [
-          TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancel')),
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Cancel'),
+          ),
           ElevatedButton(
-            onPressed: () async {
-              final name = nameController.text.trim();
-              final phone = phoneController.text.trim();
-              if (name.isEmpty || phone.isEmpty) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Name and phone number are required')),
-                );
-                return;
-              }
-              final contact = Contact(
-                id: existing?.id ?? '',
-                name: name,
-                phoneNumber: phone,
-                relation: relationController.text.trim(),
-              );
-              // Capture the Navigator BEFORE the await, so we're not touching
-              // `context` again after an async gap.
-              final navigator = Navigator.of(context);
-              if (existing == null) {
-                await _contactsService.addContact(contact);
-              } else {
-                await _contactsService.updateContact(contact);
-              }
-              // Defer the pop to after this frame finishes, so it never races
-              // with the StreamBuilder rebuilding from the Firestore write we
-              // just made. This is what actually fixes the _dependents.isEmpty
-              // assertion -- capturing navigator early wasn't enough on its own.
-              WidgetsBinding.instance.addPostFrameCallback((_) {
-                navigator.pop(true);
-              });
-            },
+            onPressed: _addContact,
+            style: ElevatedButton.styleFrom(backgroundColor: const Color(0xFF8E24AA), foregroundColor: Colors.white),
             child: const Text('Save'),
           ),
         ],
       ),
     );
-
-    // Defer disposal too -- for the same reason. The dialog's TextFields
-    // might not have fully unmounted yet when this line runs otherwise.
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      nameController.dispose();
-      phoneController.dispose();
-      relationController.dispose();
-    });
-    // No manual refresh needed -- watchContacts() is a live stream (see build()).
-    if (saved == true && mounted) {
-      // no-op: StreamBuilder updates automatically
-    }
-  }
-
-  Future<void> _confirmDelete(Contact contact) async {
-    final confirmed = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Delete'),
-        content: Text('Remove ${contact.name} from your emergency contacts?'),
-        actions: [
-          TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancel')),
-          ElevatedButton(onPressed: () => Navigator.pop(context, true), child: const Text('Delete')),
-        ],
-      ),
-    );
-    if (confirmed == true) {
-      await _contactsService.deleteContact(contact.id);
-    }
   }
 
   @override
@@ -107,53 +73,34 @@ class _ContactsScreenState extends State<ContactsScreen> {
         backgroundColor: const Color(0xFF8E24AA),
         foregroundColor: Colors.white,
       ),
-      body: StreamBuilder<List<Contact>>(
-        stream: _contactsService.watchContacts(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
-          }
-          final contacts = snapshot.data ?? [];
-          if (contacts.isEmpty) {
-            return const Center(
-              child: Padding(
-                padding: EdgeInsets.all(32),
-                child: Text(
-                  'No emergency contacts added yet. Tap + to add one.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.grey),
-                ),
+      body: ListView.builder(
+        itemCount: _contacts.length,
+        itemBuilder: (context, index) {
+          return Card(
+            margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            child: ListTile(
+              leading: const CircleAvatar(
+                backgroundColor: Color(0xFF8E24AA),
+                child: Icon(Icons.person, color: Colors.white),
               ),
-            );
-          }
-          return ListView.builder(
-            padding: const EdgeInsets.all(8),
-            itemCount: contacts.length,
-            itemBuilder: (context, index) {
-              final contact = contacts[index];
-              return Card(
-                margin: const EdgeInsets.symmetric(vertical: 4, horizontal: 8),
-                child: ListTile(
-                  title: Text(contact.name, style: const TextStyle(fontWeight: FontWeight.bold)),
-                  subtitle: Text('${contact.phoneNumber}\n${contact.relation}'),
-                  isThreeLine: true,
-                  trailing: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      IconButton(icon: const Icon(Icons.edit, color: Colors.grey), onPressed: () => _openAddEditDialog(existing: contact)),
-                      IconButton(icon: const Icon(Icons.delete, color: Colors.red), onPressed: () => _confirmDelete(contact)),
-                    ],
-                  ),
-                ),
-              );
-            },
+              title: Text(_contacts[index]['name']!, style: const TextStyle(fontWeight: FontWeight.bold)),
+              subtitle: Text(_contacts[index]['number']!),
+              trailing: IconButton(
+                icon: const Icon(Icons.delete, color: Colors.red),
+                onPressed: () {
+                  setState(() {
+                    _contacts.removeAt(index);
+                  });
+                },
+              ),
+            ),
           );
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => _openAddEditDialog(),
-        backgroundColor: const Color(0xFFFF4081),
-        child: const Icon(Icons.add),
+        onPressed: _showAddContactDialog,
+        backgroundColor: const Color(0xFF8E24AA),
+        child: const Icon(Icons.add, color: Colors.white),
       ),
     );
   }

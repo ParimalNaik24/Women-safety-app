@@ -1,80 +1,85 @@
 import 'package:flutter/material.dart';
-import '../services/auth_service.dart';
+import 'name_phone_login_screen.dart';
 import 'contacts_screen.dart';
 import 'map_screen.dart';
-import 'name_phone_login_screen.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  final _authService = AuthService();
-  String _welcomeName = '';
-
-  @override
-  void initState() {
-    super.initState();
-    _loadName();
-  }
-
-  Future<void> _loadName() async {
-    final name = await _authService.getFullName();
-    if (mounted) setState(() => _welcomeName = name);
-  }
-
-  Future<void> _logout() async {
-    await _authService.logout();
-    if (!mounted) return;
-    Navigator.of(context).pushAndRemoveUntil(
-     MaterialPageRoute(builder: (_) => const NamePhoneLoginScreen()),
-      (route) => false,
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home'),
+        title: const Text('Women Safety App'),
         backgroundColor: const Color(0xFF8E24AA),
         foregroundColor: Colors.white,
+        automaticallyImplyLeading: false,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(24),
+        padding: const EdgeInsets.all(24.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const SizedBox(height: 8),
-            Text(
-              _welcomeName.isEmpty ? 'Welcome' : 'Hi, $_welcomeName — stay safe today.',
-              style: const TextStyle(fontSize: 18),
+            const SizedBox(height: 20),
+            const Text(
+              'Hi, user - stay safe today',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 32),
-            ElevatedButton(
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const ContactsScreen()),
+            const SizedBox(height: 30),
+            
+            // Emergency Contacts Button
+            ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ContactsScreen()),
+                );
+              },
+              icon: const Icon(Icons.contacts),
+              label: const Text('Emergency Contacts', style: TextStyle(fontSize: 16)),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                backgroundColor: const Color(0xFF8E24AA),
+                foregroundColor: Colors.white,
               ),
-              style: ElevatedButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 14)),
-              child: const Text('Emergency Contacts'),
             ),
             const SizedBox(height: 16),
-            ElevatedButton(
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const MapScreen()),
+
+            // Find Safe Route Button
+            ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const MapScreen()),
+                );
+              },
+              icon: const Icon(Icons.map),
+              label: const Text('Find Safe Route', style: TextStyle(fontSize: 16)),
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                backgroundColor: const Color(0xFF8E24AA),
+                foregroundColor: Colors.white,
               ),
-              style: ElevatedButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 14)),
-              child: const Text('Find Safe Route'),
             ),
-            const SizedBox(height: 16),
+            const Spacer(),
+
+            // Logout Button
             OutlinedButton(
-              onPressed: _logout,
-              style: OutlinedButton.styleFrom(padding: const EdgeInsets.symmetric(vertical: 14)),
-              child: const Text('Logout'),
+              onPressed: () {
+                Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (context) => const NamePhoneLoginScreen()),
+                  (route) => false,
+                );
+              },
+              style: OutlinedButton.styleFrom(
+                padding: const EdgeInsets.symmetric(vertical: 16),
+                side: const BorderSide(color: Colors.red),
+                foregroundColor: Colors.red,
+              ),
+              child: const Text('Logout', style: TextStyle(fontSize: 16)),
             ),
+            const SizedBox(height: 20),
           ],
         ),
       ),
