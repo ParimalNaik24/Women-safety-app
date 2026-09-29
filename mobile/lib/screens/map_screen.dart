@@ -44,6 +44,10 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   Future<void> _determineCurrentPosition() async {
+    if (!await Geolocator.isLocationServiceEnabled()) {
+      _showMessage('Please turn on GPS / location services');
+      return;
+    }
     LocationPermission permission = await Geolocator.checkPermission();
     if (permission == LocationPermission.denied) {
       permission = await Geolocator.requestPermission();
@@ -72,29 +76,37 @@ class _MapScreenState extends State<MapScreen> {
       return;
     }
 
-    setState(() => _isSearching = true);
-
-    final origin = '${_currentLatLng!.latitude},${_currentLatLng!.longitude}';
-    final rawRoutes = await _directionsService.fetchRouteAlternatives(
-      origin: origin,
-      destination: destination,
-    );
-
-    if (rawRoutes.isEmpty) {
-      setState(() => _isSearching = false);
-      // Expected until a real API key with billing enabled is added --
-      // see mobile/README.md for setup instructions.
-      _showMessage('Could not find a route. Check your API key / destination spelling.');
+    if (googleMapsApiKey.contains('YOUR_GOOGLE_MAPS_API_KEY')) {
+      _showMessage('Put your real API key in lib/config.dart first');
       return;
     }
 
-    final rankedRoutes = await _safetyScoreService.scoreAndRankRoutes(rawRoutes);
+    FocusScope.of(context).unfocus();
+    setState(() => _isSearching = true);
+
+    final origin = '${_currentLatLng!.latitude},${_currentLatLng!.longitude}';
+    List<RouteOption> rankedRoutes;
+    try {
+      final rawRoutes = await _directionsService.fetchRouteAlternatives(
+        origin: origin,
+        destination: destination,
+      );
+      rankedRoutes = await _safetyScoreService.scoreAndRankRoutes(rawRoutes);
+    } catch (e) {
+      setState(() => _isSearching = false);
+      _showMessage(e.toString().replaceFirst('Exception: ', ''));
+      return;
+    }
 
     setState(() {
       _routes = rankedRoutes;
       _selectedRouteIndex = 0; // index 0 is always the safest after ranking
       _isSearching = false;
     });
+
+    if (rankedRoutes.length == 1) {
+      _showMessage('Google returned only one route for this trip. Try a longer trip.');
+    }
 
     _fitCameraToRoute(rankedRoutes.first);
   }
@@ -129,7 +141,7 @@ class _MapScreenState extends State<MapScreen> {
     final polylines = <Polyline>{};
     for (int i = 0; i < _routes.length; i++) {
       final isSelected = i == _selectedRouteIndex;
-      final isSafest = i == 0; // routes are pre-sorted safest-first
+      final isSafest = _routes[i].isSafest;
       polylines.add(Polyline(
         polylineId: PolylineId('route_$i'),
         points: _routes[i].points,
@@ -165,6 +177,8 @@ class _MapScreenState extends State<MapScreen> {
                 Expanded(
                   child: TextField(
                     controller: _destinationController,
+                    textInputAction: TextInputAction.search,
+                    onSubmitted: (_) => _findSafeRoute(),
                     decoration: const InputDecoration(
                       hintText: 'Enter destination (e.g. Seawoods Grand Central)',
                       border: OutlineInputBorder(),
@@ -196,15 +210,14 @@ class _MapScreenState extends State<MapScreen> {
                     myLocationEnabled: true,
                     myLocationButtonEnabled: true,
                     polylines: _buildPolylines(),
-                    markers: _currentLatLng == null
-                        ? {}
-                        : {
-                            Marker(
-                              markerId: const MarkerId('current_location'),
-                              position: _currentLatLng!,
-                              infoWindow: const InfoWindow(title: 'You are here'),
-                            ),
-                          },
+                    markers: {
+                      if (_routes.isNotEmpty)
+                        Marker(
+                          markerId: const MarkerId('destination'),
+                          position: _routes[_selectedRouteIndex].points.last,
+                          infoWindow: const InfoWindow(title: 'Destination'),
+                        ),
+                    },
                   ),
           ),
           if (_routes.isNotEmpty) _buildRoutePanel(),
@@ -225,7 +238,7 @@ class _MapScreenState extends State<MapScreen> {
         itemCount: _routes.length,
         itemBuilder: (context, index) {
           final route = _routes[index];
-          final isSafest = index == 0;
+          final isSafest = route.isSafest;
           final isSelected = index == _selectedRouteIndex;
           return ListTile(
             selected: isSelected,
@@ -237,7 +250,10 @@ class _MapScreenState extends State<MapScreen> {
                 style: const TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.bold),
               ),
             ),
-            title: Text(isSafest ? 'Safest Route' : 'Alternative Route ${index + 1}',
+            title: Text(
+                '${isSafest ? 'Safest Route' : 'Alternative Route'}'
+                '${route.summary.isNotEmpty ? ' via ${route.summary}' : ''}'
+                '${route.isFastest ? ' (fastest)' : ''}',
                 style: const TextStyle(fontWeight: FontWeight.bold)),
             subtitle: Text('${route.distanceText} · ${route.durationText} · Safety score ${route.safetyScore.toStringAsFixed(0)}/100'),
             onTap: () {

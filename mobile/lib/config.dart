@@ -6,4 +6,4 @@
 /// Never commit your real key to a public GitHub repo -- see the note
 /// in README.md about using --dart-define instead for anything beyond
 /// a college mini project demo.
-const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
+const String googleMapsApiKey = 'AIzaSyBTfP0Y-RviVBYyFc61FnjE_p0Ggw_niRE';

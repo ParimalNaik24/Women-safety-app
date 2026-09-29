@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'home_screen.dart'; 
+import '../services/auth_service.dart';
+import 'home_screen.dart';
 
 class NamePhoneLoginScreen extends StatefulWidget {
   const NamePhoneLoginScreen({super.key});
@@ -13,13 +14,13 @@ class NamePhoneLoginScreen extends StatefulWidget {
 class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _phoneController = TextEditingController();
+  final AuthService _authService = AuthService();
   bool _isLoading = false;
 
   Future<void> _submitData() async {
     String name = _nameController.text.trim();
     String phone = _phoneController.text.trim();
 
-    // 1. Basic empty check
     if (name.isEmpty || phone.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Please fill in both fields')),
@@ -27,9 +28,6 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
       return;
     }
 
-    // 2. Strict Indian phone number validation
-    // ^[789] ensures it starts with 7, 8, or 9
-    // \d{9}$ ensures exactly 9 digits follow (making 10 total)
     RegExp phoneRegex = RegExp(r'^[789]\d{9}$');
     if (!phoneRegex.hasMatch(phone)) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -43,31 +41,28 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
     });
 
     try {
-      final response = await http.post(
-        Uri.parse('http://10.0.2.2:8080/api/users/login'), 
-        headers: {'Content-Type': 'application/json; charset=UTF-8'},
-        body: jsonEncode({
-          'name': name,
-          'number': phone,
-        }),
+      // 1. Primary save -- Firestore. The app's actual auth/data source.
+      // If this fails, we stop and show an error, since login truly failed.
+      await _authService.loginWithNameAndPhone(
+        fullName: name,
+        phoneNumber: phone,
       );
+
+      // 2. Secondary save -- best-effort mirror to the Postgres backend
+      // via Spring Boot, purely so records are visible in pgAdmin too.
+      // Wrapped separately so a failure here never blocks login.
+      _syncToPostgresBackend(name: name, phone: phone);
 
       if (!mounted) return;
 
-      if (response.statusCode == 200 || response.statusCode == 201) {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => const HomeScreen()),
-        );
-      } else {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Server Error: ${response.statusCode}')),
-        );
-      }
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const HomeScreen()),
+      );
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Connection failed. Is Spring Boot running?')),
+        SnackBar(content: Text('Login failed: $e')),
       );
     } finally {
       if (mounted) {
@@ -76,6 +71,27 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
         });
       }
     }
+  }
+
+  // Fire-and-forget sync to the Spring Boot backend so the same record
+  // also shows up in pgAdmin. Errors are swallowed on purpose --
+  // this must never break login if the backend isn't running.
+  void _syncToPostgresBackend({required String name, required String phone}) {
+    http
+        .post(
+          Uri.parse('http://10.0.2.2:8080/api/users/login'),
+          headers: {'Content-Type': 'application/json; charset=UTF-8'},
+          body: jsonEncode({'name': name, 'number': phone}),
+        )
+        .then((response) {
+      if (response.statusCode == 200 || response.statusCode == 201) {
+        debugPrint('Synced to Postgres backend successfully.');
+      } else {
+        debugPrint('Postgres sync failed: ${response.statusCode}');
+      }
+    }).catchError((e) {
+      debugPrint('Postgres backend unreachable, skipping sync: $e');
+    });
   }
 
   @override
@@ -107,12 +123,12 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
             TextField(
               controller: _phoneController,
               keyboardType: TextInputType.phone,
-              maxLength: 10, // Prevents typing more than 10 characters
+              maxLength: 10,
               decoration: const InputDecoration(
                 labelText: '10-digit phone number',
                 prefixText: '+91 ',
                 border: OutlineInputBorder(),
-                counterText: "", // Hides the default "0/10" character counter below the field
+                counterText: "",
               ),
             ),
             const SizedBox(height: 32),
@@ -125,7 +141,7 @@ class _NamePhoneLoginScreenState extends State<NamePhoneLoginScreen> {
                   backgroundColor: const Color(0xFF8E24AA),
                   foregroundColor: Colors.white,
                 ),
-                child: _isLoading 
+                child: _isLoading
                     ? const CircularProgressIndicator(color: Colors.white)
                     : const Text('Continue', style: TextStyle(fontSize: 16)),
               ),
